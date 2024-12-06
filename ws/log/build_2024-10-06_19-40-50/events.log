@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.002144] (jetbot_ros) JobQueued: {'identifier': 'jetbot_ros', 'dependencies': OrderedDict()}
+[0.002795] (jetbot_ros) JobStarted: {'identifier': 'jetbot_ros'}
+[0.099300] (-) TimerEvent: {}
+[0.203067] (-) TimerEvent: {}
+[0.304058] (-) TimerEvent: {}
+[0.410579] (-) TimerEvent: {}
+[0.511317] (-) TimerEvent: {}
+[0.612004] (-) TimerEvent: {}
+[0.712729] (-) TimerEvent: {}
+[0.814812] (-) TimerEvent: {}
+[0.915513] (-) TimerEvent: {}
+[1.016222] (-) TimerEvent: {}
+[1.116916] (-) TimerEvent: {}
+[1.217595] (-) TimerEvent: {}
+[1.318280] (-) TimerEvent: {}
+[1.418983] (-) TimerEvent: {}
+[1.519698] (-) TimerEvent: {}
+[1.620335] (-) TimerEvent: {}
+[1.721043] (-) TimerEvent: {}
+[1.821805] (-) TimerEvent: {}
+[1.927842] (-) TimerEvent: {}
+[2.031430] (-) TimerEvent: {}
+[2.132382] (-) TimerEvent: {}
+[2.233038] (-) TimerEvent: {}
+[2.333783] (-) TimerEvent: {}
+[2.434552] (-) TimerEvent: {}
+[2.535265] (-) TimerEvent: {}
+[2.635910] (-) TimerEvent: {}
+[2.736613] (-) TimerEvent: {}
+[2.837303] (-) TimerEvent: {}
+[2.938039] (-) TimerEvent: {}
+[3.038820] (-) TimerEvent: {}
+[3.139587] (-) TimerEvent: {}
+[3.240283] (-) TimerEvent: {}
+[3.341023] (-) TimerEvent: {}
+[3.441759] (-) TimerEvent: {}
+[3.543052] (-) TimerEvent: {}
+[3.643749] (-) TimerEvent: {}
+[3.744513] (-) TimerEvent: {}
+[3.845287] (-) TimerEvent: {}
+[3.946105] (-) TimerEvent: {}
+[4.047018] (-) TimerEvent: {}
+[4.147743] (-) TimerEvent: {}
+[4.248502] (-) TimerEvent: {}
+[4.342619] (jetbot_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jetbot/ece417/ws/build/jetbot_ros/build', '--no-deps', 'install_data'], 'cwd': '/home/jetbot/ece417/ws/build/jetbot_ros', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'nano-4gb-jp45', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:', 'SHLVL': '1', 'OLDPWD': '/home/jetbot/ece417', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/home/jetbot/ece417/ws/build/jetbot_ros', 'PYTHONPATH': '/home/jetbot/ece417/ws/build/jetbot_ros/prefix_override:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[4.348728] (-) TimerEvent: {}
+[4.453007] (-) TimerEvent: {}
+[4.554018] (-) TimerEvent: {}
+[4.654746] (-) TimerEvent: {}
+[4.755459] (-) TimerEvent: {}
+[4.856200] (-) TimerEvent: {}
+[4.956912] (-) TimerEvent: {}
+[5.057663] (-) TimerEvent: {}
+[5.158443] (-) TimerEvent: {}
+[5.259132] (-) TimerEvent: {}
+[5.359858] (-) TimerEvent: {}
+[5.460581] (-) TimerEvent: {}
+[5.561345] (-) TimerEvent: {}
+[5.662098] (-) TimerEvent: {}
+[5.745950] (jetbot_ros) StderrLine: {'line': b"/usr/local/lib/python3.6/dist-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.746919] (jetbot_ros) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[5.762316] (-) TimerEvent: {}
+[5.863120] (-) TimerEvent: {}
+[5.963916] (-) TimerEvent: {}
+[5.990007] (jetbot_ros) StdoutLine: {'line': b'running develop\n'}
+[5.994915] (jetbot_ros) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.995623] (jetbot_ros) StderrLine: {'line': b'  EasyInstallDeprecationWarning,\n'}
+[6.002714] (jetbot_ros) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.003461] (jetbot_ros) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[6.064108] (-) TimerEvent: {}
+[6.164870] (-) TimerEvent: {}
+[6.265601] (-) TimerEvent: {}
+[6.366301] (-) TimerEvent: {}
+[6.467046] (-) TimerEvent: {}
+[6.567678] (-) TimerEvent: {}
+[6.668370] (-) TimerEvent: {}
+[6.769124] (-) TimerEvent: {}
+[6.869875] (-) TimerEvent: {}
+[6.906707] (jetbot_ros) StdoutLine: {'line': b'running egg_info\n'}
+[6.907660] (jetbot_ros) StdoutLine: {'line': b'creating jetbot_ros.egg-info\n'}
+[6.908180] (jetbot_ros) StdoutLine: {'line': b'writing jetbot_ros.egg-info/PKG-INFO\n'}
+[6.908819] (jetbot_ros) StdoutLine: {'line': b'writing dependency_links to jetbot_ros.egg-info/dependency_links.txt\n'}
+[6.909446] (jetbot_ros) StdoutLine: {'line': b'writing entry points to jetbot_ros.egg-info/entry_points.txt\n'}
+[6.910142] (jetbot_ros) StdoutLine: {'line': b'writing requirements to jetbot_ros.egg-info/requires.txt\n'}
+[6.910667] (jetbot_ros) StdoutLine: {'line': b'writing top-level names to jetbot_ros.egg-info/top_level.txt\n'}
+[6.911366] (jetbot_ros) StdoutLine: {'line': b"writing manifest file 'jetbot_ros.egg-info/SOURCES.txt'\n"}
+[6.921493] (jetbot_ros) StdoutLine: {'line': b"reading manifest file 'jetbot_ros.egg-info/SOURCES.txt'\n"}
+[6.928195] (jetbot_ros) StdoutLine: {'line': b"writing manifest file 'jetbot_ros.egg-info/SOURCES.txt'\n"}
+[6.970076] (-) TimerEvent: {}
+[7.073236] (-) TimerEvent: {}
+[7.134649] (jetbot_ros) StdoutLine: {'line': b'running build_ext\n'}
+[7.135594] (jetbot_ros) StdoutLine: {'line': b'Creating /home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages/jetbot-ros.egg-link (link to .)\n'}
+[7.139598] (jetbot_ros) StdoutLine: {'line': b'Installing data_collection script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.140335] (jetbot_ros) StdoutLine: {'line': b'Installing gazebo_spawn script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.141061] (jetbot_ros) StdoutLine: {'line': b'Installing motors_nvidia script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.141655] (jetbot_ros) StdoutLine: {'line': b'Installing motors_sparkfun script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.142314] (jetbot_ros) StdoutLine: {'line': b'Installing motors_waveshare script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.142967] (jetbot_ros) StdoutLine: {'line': b'Installing nav_model script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.143527] (jetbot_ros) StdoutLine: {'line': b'Installing oled_ssd1306 script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.144047] (jetbot_ros) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.144666] (jetbot_ros) StdoutLine: {'line': b'\n'}
+[7.145169] (jetbot_ros) StdoutLine: {'line': b'Installed /home/jetbot/ece417/ws/build/jetbot_ros\n'}
+[7.145662] (jetbot_ros) StdoutLine: {'line': b'running install_data\n'}
+[7.147451] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/ament_index\n'}
+[7.147970] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/ament_index/resource_index\n'}
+[7.148426] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/ament_index/resource_index/packages\n'}
+[7.149011] (jetbot_ros) StdoutLine: {'line': b'copying resource/jetbot_ros -> /home/jetbot/ece417/ws/install/jetbot_ros/share/ament_index/resource_index/packages\n'}
+[7.149593] (jetbot_ros) StdoutLine: {'line': b'copying package.xml -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros\n'}
+[7.150156] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/launch\n'}
+[7.150784] (jetbot_ros) StdoutLine: {'line': b'copying launch/teleop_keyboard.launch.py -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/launch\n'}
+[7.151355] (jetbot_ros) StdoutLine: {'line': b'copying launch/nav_model.launch.py -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/launch\n'}
+[7.151899] (jetbot_ros) StdoutLine: {'line': b'copying launch/gazebo_nav.launch.py -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/launch\n'}
+[7.152762] (jetbot_ros) StdoutLine: {'line': b'copying launch/gazebo_world.launch.py -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/launch\n'}
+[7.153607] (jetbot_ros) StdoutLine: {'line': b'copying launch/jetbot_nvidia.launch.py -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/launch\n'}
+[7.154324] (jetbot_ros) StdoutLine: {'line': b'copying launch/data_collection.launch.py -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/launch\n'}
+[7.155172] (jetbot_ros) StdoutLine: {'line': b'copying launch/jetbot_sparkfun.launch.py -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/launch\n'}
+[7.156040] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/worlds\n'}
+[7.156923] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/worlds/dirt_path_simple_diff.world -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/worlds\n'}
+[7.157486] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/worlds/dirt_path_curves.world -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/worlds\n'}
+[7.158276] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/worlds/dirt_path_curves_simple_diff.world -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/worlds\n'}
+[7.159011] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/worlds/maze_obstacles_simple_diff.world -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/worlds\n'}
+[7.159810] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/worlds/maze_simple_diff.world -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/worlds\n'}
+[7.161206] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/worlds/maze_obstacles.world -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/worlds\n'}
+[7.162890] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/worlds/maze.world -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/worlds\n'}
+[7.163859] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/worlds/dirt_path.world -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/worlds\n'}
+[7.164941] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models\n'}
+[7.165865] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path\n'}
+[7.166571] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/dirt_path/grass_grass_0105_02_tiled_1024.jpg -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path\n'}
+[7.173406] (-) TimerEvent: {}
+[7.191122] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/dirt_path/ground_stone_ground_0002_02_tiled_1024.jpg -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path\n'}
+[7.204237] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/dirt_path/dirt_path.dae -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path\n'}
+[7.206859] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/dirt_path/model.sdf -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path\n'}
+[7.207922] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/dirt_path/model.config -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path\n'}
+[7.208746] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/simple_diff\n'}
+[7.209384] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/simple_diff/model.sdf -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/simple_diff\n'}
+[7.209935] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/simple_diff/model.config -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/simple_diff\n'}
+[7.210791] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/ground_plane_grass\n'}
+[7.211353] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/ground_plane_grass/grass_grass_0105_02_tiled_1024.jpg -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/ground_plane_grass\n'}
+[7.236403] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/ground_plane_grass/ground_plane_grass.blend -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/ground_plane_grass\n'}
+[7.249300] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/ground_plane_grass/model.sdf -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/ground_plane_grass\n'}
+[7.250174] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/ground_plane_grass/model.config -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/ground_plane_grass\n'}
+[7.251052] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/ground_plane_grass/ground_plane_grass.dae -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/ground_plane_grass\n'}
+[7.252003] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/simple_diff_ros\n'}
+[7.252721] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/simple_diff_ros/model.sdf -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/simple_diff_ros\n'}
+[7.253249] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/simple_diff_ros/model.config -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/simple_diff_ros\n'}
+[7.253859] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/maze\n'}
+[7.254359] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/maze/model.sdf -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/maze\n'}
+[7.255312] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/maze/model.config -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/maze\n'}
+[7.256102] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path_curves\n'}
+[7.256670] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/dirt_path_curves/grass_grass_0105_02_tiled_1024.jpg -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path_curves\n'}
+[7.273561] (-) TimerEvent: {}
+[7.282843] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/dirt_path_curves/ground_stone_ground_0002_02_tiled_1024.jpg -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path_curves\n'}
+[7.296133] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/dirt_path_curves/model.sdf -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path_curves\n'}
+[7.297078] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/dirt_path_curves/model.config -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path_curves\n'}
+[7.299338] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/dirt_path_curves/dirt_path_curves.dae -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/dirt_path_curves\n'}
+[7.300592] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/jetbot\n'}
+[7.301444] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/jetbot/model.original.sdf -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/jetbot\n'}
+[7.302158] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/jetbot/model.sdf -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/jetbot\n'}
+[7.303071] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/jetbot/model.config -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/jetbot\n'}
+[7.307827] (jetbot_ros) StdoutLine: {'line': b'creating /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/jetbot/meshes\n'}
+[7.308675] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/jetbot/meshes/JetBot-v3-Chassis.stl -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/jetbot/meshes\n'}
+[7.373785] (-) TimerEvent: {}
+[7.437408] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/jetbot/meshes/JetBot-v3-Chassis.dae -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/jetbot/meshes\n'}
+[7.474004] (-) TimerEvent: {}
+[7.574984] (-) TimerEvent: {}
+[7.611385] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/jetbot/meshes/JetBot-v3-Wheel.stl -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/jetbot/meshes\n'}
+[7.616497] (jetbot_ros) StdoutLine: {'line': b'copying gazebo/models/jetbot/meshes/JetBot-v3-Chassis_simplified.stl -> /home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/models/jetbot/meshes\n'}
+[7.675211] (-) TimerEvent: {}
+[7.769525] (jetbot_ros) CommandEnded: {'returncode': 0}
+[7.777676] (-) TimerEvent: {}
+[7.883415] (-) TimerEvent: {}
+[7.984892] (-) TimerEvent: {}
+[7.998347] (jetbot_ros) JobEnded: {'identifier': 'jetbot_ros', 'rc': 0}
+[8.003760] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/jetbot/ece417/ws/build/aruco_opencv_msgs/rosidl_typesupport_fastrtps_c/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_c.h

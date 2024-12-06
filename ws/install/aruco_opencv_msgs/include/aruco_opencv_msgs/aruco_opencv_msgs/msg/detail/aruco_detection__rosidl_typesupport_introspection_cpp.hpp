@@ -1,0 +1,1 @@
+/home/jetbot/ece417/ws/build/aruco_opencv_msgs/rosidl_typesupport_introspection_cpp/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_cpp.hpp

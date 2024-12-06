@@ -1,0 +1,1 @@
+/home/jetbot/ece417/ws/build/aruco_opencv/ament_cmake_core/aruco_opencvConfig.cmake

@@ -1,0 +1,1008 @@
+[0.000000] (-) TimerEvent: {}
+[0.000512] (gscam) JobQueued: {'identifier': 'gscam', 'dependencies': OrderedDict()}
+[0.000709] (jetbot_ros) JobQueued: {'identifier': 'jetbot_ros', 'dependencies': OrderedDict()}
+[0.001135] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001341] (gscam) JobStarted: {'identifier': 'gscam'}
+[0.090667] (-) TimerEvent: {}
+[0.168657] (jetbot_ros) JobStarted: {'identifier': 'jetbot_ros'}
+[0.195965] (-) TimerEvent: {}
+[0.311996] (-) TimerEvent: {}
+[0.352877] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.417331] (-) TimerEvent: {}
+[0.528403] (-) TimerEvent: {}
+[0.539666] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'cmake'}
+[0.540517] (gscam) Command: {'cmd': ['/usr/local/bin/cmake', '/home/jetbot/ece417/ws/src/gscam', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jetbot/ece417/ws/install/gscam'], 'cwd': '/home/jetbot/ece417/ws/build/gscam', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano-4gb-jp45'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/home/jetbot/ece417'), ('CYCLONEDDS_URI', 'file:///home/jetbot/ece417/cyclonedds.xml'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/jetbot/ece417/ws/build/gscam'), ('PYTHONPATH', '/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[0.628741] (-) TimerEvent: {}
+[0.730182] (-) TimerEvent: {}
+[0.831010] (-) TimerEvent: {}
+[0.931808] (-) TimerEvent: {}
+[1.032647] (-) TimerEvent: {}
+[1.133464] (-) TimerEvent: {}
+[1.234330] (-) TimerEvent: {}
+[1.335175] (-) TimerEvent: {}
+[1.436046] (-) TimerEvent: {}
+[1.536897] (-) TimerEvent: {}
+[1.637650] (-) TimerEvent: {}
+[1.738372] (-) TimerEvent: {}
+[1.839122] (-) TimerEvent: {}
+[1.939961] (-) TimerEvent: {}
+[2.040820] (-) TimerEvent: {}
+[2.141771] (-) TimerEvent: {}
+[2.242581] (-) TimerEvent: {}
+[2.343554] (-) TimerEvent: {}
+[2.452818] (-) TimerEvent: {}
+[2.535643] (gscam) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[2.537364] (gscam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[2.541919] (gscam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.542702] (gscam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.543261] (gscam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.543995] (gscam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.544561] (gscam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.545135] (gscam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.545785] (gscam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.546382] (gscam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.546905] (gscam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.547405] (gscam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.547914] (gscam) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[2.548416] (gscam) StdoutLine: {'line': b"-- Checking for module 'gstreamer-1.0'\n"}
+[2.548973] (gscam) StdoutLine: {'line': b'--   Found gstreamer-1.0, version 1.14.5\n'}
+[2.553015] (-) TimerEvent: {}
+[2.654068] (-) TimerEvent: {}
+[2.676384] (gscam) StdoutLine: {'line': b"-- Checking for module 'gstreamer-app-1.0'\n"}
+[2.728050] (gscam) StdoutLine: {'line': b'--   Found gstreamer-app-1.0, version 1.14.5\n'}
+[2.754245] (-) TimerEvent: {}
+[2.855017] (-) TimerEvent: {}
+[2.878035] (gscam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[2.955244] (-) TimerEvent: {}
+[3.056018] (-) TimerEvent: {}
+[3.156867] (-) TimerEvent: {}
+[3.257756] (-) TimerEvent: {}
+[3.358496] (-) TimerEvent: {}
+[3.459297] (-) TimerEvent: {}
+[3.560146] (-) TimerEvent: {}
+[3.665147] (-) TimerEvent: {}
+[3.767616] (-) TimerEvent: {}
+[3.868484] (-) TimerEvent: {}
+[3.969335] (-) TimerEvent: {}
+[4.070204] (-) TimerEvent: {}
+[4.171004] (-) TimerEvent: {}
+[4.271910] (-) TimerEvent: {}
+[4.381387] (-) TimerEvent: {}
+[4.483404] (-) TimerEvent: {}
+[4.584871] (-) TimerEvent: {}
+[4.688837] (-) TimerEvent: {}
+[4.791303] (-) TimerEvent: {}
+[4.893863] (-) TimerEvent: {}
+[4.996321] (-) TimerEvent: {}
+[5.106260] (-) TimerEvent: {}
+[5.208684] (-) TimerEvent: {}
+[5.311416] (-) TimerEvent: {}
+[5.413779] (-) TimerEvent: {}
+[5.516288] (-) TimerEvent: {}
+[5.618877] (-) TimerEvent: {}
+[5.721179] (-) TimerEvent: {}
+[5.823527] (-) TimerEvent: {}
+[5.926084] (-) TimerEvent: {}
+[6.028550] (-) TimerEvent: {}
+[6.130782] (-) TimerEvent: {}
+[6.232995] (-) TimerEvent: {}
+[6.333822] (-) TimerEvent: {}
+[6.434631] (-) TimerEvent: {}
+[6.536213] (-) TimerEvent: {}
+[6.638822] (-) TimerEvent: {}
+[6.741363] (-) TimerEvent: {}
+[6.842574] (-) TimerEvent: {}
+[6.944058] (-) TimerEvent: {}
+[7.046238] (-) TimerEvent: {}
+[7.148574] (-) TimerEvent: {}
+[7.250984] (-) TimerEvent: {}
+[7.257457] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jetbot/ece417/ws/build/py_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/jetbot/ece417/ws/build/py_pubsub', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'nano-4gb-jp45', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:', 'SHLVL': '1', 'OLDPWD': '/home/jetbot/ece417', 'CYCLONEDDS_URI': 'file:///home/jetbot/ece417/cyclonedds.xml', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/home/jetbot/ece417/ws/build/py_pubsub', 'PYTHONPATH': '/home/jetbot/ece417/ws/build/py_pubsub/prefix_override:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[7.300119] (jetbot_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jetbot/ece417/ws/build/jetbot_ros/build', '--no-deps', 'install_data'], 'cwd': '/home/jetbot/ece417/ws/build/jetbot_ros', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'nano-4gb-jp45', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:', 'SHLVL': '1', 'OLDPWD': '/home/jetbot/ece417', 'CYCLONEDDS_URI': 'file:///home/jetbot/ece417/cyclonedds.xml', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/home/jetbot/ece417/ws/build/jetbot_ros', 'PYTHONPATH': '/home/jetbot/ece417/ws/build/jetbot_ros/prefix_override:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[7.351183] (-) TimerEvent: {}
+[7.453565] (-) TimerEvent: {}
+[7.556079] (-) TimerEvent: {}
+[7.658337] (-) TimerEvent: {}
+[7.760854] (-) TimerEvent: {}
+[7.863464] (-) TimerEvent: {}
+[7.965321] (-) TimerEvent: {}
+[8.067953] (-) TimerEvent: {}
+[8.170252] (-) TimerEvent: {}
+[8.249084] (gscam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter \n'}
+[8.270480] (-) TimerEvent: {}
+[8.372271] (-) TimerEvent: {}
+[8.474686] (-) TimerEvent: {}
+[8.577019] (-) TimerEvent: {}
+[8.679352] (-) TimerEvent: {}
+[8.744072] (gscam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.779516] (-) TimerEvent: {}
+[8.852904] (jetbot_ros) StderrLine: {'line': b"/usr/local/lib/python3.6/dist-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[8.853742] (jetbot_ros) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[8.879749] (-) TimerEvent: {}
+[8.940837] (gscam) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/opt/ros/humble/install/share/class_loader/cmake)\n'}
+[8.979944] (-) TimerEvent: {}
+[9.058295] (gscam) StdoutLine: {'line': b'-- Found image_transport: 3.1.5 (/opt/ros/humble/install/share/image_transport/cmake)\n'}
+[9.080170] (-) TimerEvent: {}
+[9.095978] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[9.099170] (py_pubsub) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.099877] (py_pubsub) StderrLine: {'line': b'  EasyInstallDeprecationWarning,\n'}
+[9.106283] (py_pubsub) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.107012] (py_pubsub) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[9.127527] (jetbot_ros) StdoutLine: {'line': b'running develop\n'}
+[9.128879] (jetbot_ros) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.129456] (jetbot_ros) StderrLine: {'line': b'  EasyInstallDeprecationWarning,\n'}
+[9.135850] (jetbot_ros) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.136517] (jetbot_ros) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[9.185806] (-) TimerEvent: {}
+[9.287721] (-) TimerEvent: {}
+[9.377534] (gscam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[9.387888] (-) TimerEvent: {}
+[9.417931] (gscam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[9.482367] (gscam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[9.488041] (-) TimerEvent: {}
+[9.590052] (gscam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.590733] (-) TimerEvent: {}
+[9.692442] (-) TimerEvent: {}
+[9.709943] (gscam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.792705] (-) TimerEvent: {}
+[9.894978] (-) TimerEvent: {}
+[9.996990] (-) TimerEvent: {}
+[10.098978] (-) TimerEvent: {}
+[10.114412] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[10.115523] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[10.116712] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[10.117526] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[10.118424] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[10.119122] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[10.128053] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[10.134010] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[10.165663] (jetbot_ros) StdoutLine: {'line': b'running egg_info\n'}
+[10.166523] (jetbot_ros) StdoutLine: {'line': b'writing jetbot_ros.egg-info/PKG-INFO\n'}
+[10.168436] (jetbot_ros) StdoutLine: {'line': b'writing dependency_links to jetbot_ros.egg-info/dependency_links.txt\n'}
+[10.169373] (jetbot_ros) StdoutLine: {'line': b'writing entry points to jetbot_ros.egg-info/entry_points.txt\n'}
+[10.170037] (jetbot_ros) StdoutLine: {'line': b'writing requirements to jetbot_ros.egg-info/requires.txt\n'}
+[10.170538] (jetbot_ros) StdoutLine: {'line': b'writing top-level names to jetbot_ros.egg-info/top_level.txt\n'}
+[10.181438] (jetbot_ros) StdoutLine: {'line': b"reading manifest file 'jetbot_ros.egg-info/SOURCES.txt'\n"}
+[10.192810] (jetbot_ros) StdoutLine: {'line': b"writing manifest file 'jetbot_ros.egg-info/SOURCES.txt'\n"}
+[10.199135] (-) TimerEvent: {}
+[10.216243] (gscam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[10.236426] (gscam) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[10.299308] (-) TimerEvent: {}
+[10.367034] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[10.367996] (py_pubsub) StdoutLine: {'line': b'Creating /home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages/py-pubsub.egg-link (link to .)\n'}
+[10.368676] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/jetbot/ece417/ws/install/py_pubsub/lib/py_pubsub\n'}
+[10.369339] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/jetbot/ece417/ws/install/py_pubsub/lib/py_pubsub\n'}
+[10.370018] (py_pubsub) StdoutLine: {'line': b'\n'}
+[10.370668] (py_pubsub) StdoutLine: {'line': b'Installed /home/jetbot/ece417/ws/build/py_pubsub\n'}
+[10.371349] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[10.399573] (-) TimerEvent: {}
+[10.434674] (jetbot_ros) StdoutLine: {'line': b'running build_ext\n'}
+[10.435660] (jetbot_ros) StdoutLine: {'line': b'Creating /home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages/jetbot-ros.egg-link (link to .)\n'}
+[10.441115] (jetbot_ros) StdoutLine: {'line': b'Installing data_collection script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.442120] (jetbot_ros) StdoutLine: {'line': b'Installing gazebo_spawn script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.443017] (jetbot_ros) StdoutLine: {'line': b'Installing motors_nvidia script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.443971] (jetbot_ros) StdoutLine: {'line': b'Installing motors_sparkfun script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.444940] (jetbot_ros) StdoutLine: {'line': b'Installing motors_waveshare script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.445869] (jetbot_ros) StdoutLine: {'line': b'Installing nav_model script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.446714] (jetbot_ros) StdoutLine: {'line': b'Installing oled_ssd1306 script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.447625] (jetbot_ros) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.448525] (jetbot_ros) StdoutLine: {'line': b'\n'}
+[10.449272] (jetbot_ros) StdoutLine: {'line': b'Installed /home/jetbot/ece417/ws/build/jetbot_ros\n'}
+[10.450180] (jetbot_ros) StdoutLine: {'line': b'running install_data\n'}
+[10.499776] (-) TimerEvent: {}
+[10.506100] (gscam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[10.530975] (py_pubsub) CommandEnded: {'returncode': 0}
+[10.582810] (gscam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.602088] (-) TimerEvent: {}
+[10.706076] (-) TimerEvent: {}
+[10.810176] (-) TimerEvent: {}
+[10.817349] (gscam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[10.818393] (gscam) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[10.839718] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[10.844390] (jetbot_ros) CommandEnded: {'returncode': 0}
+[10.915574] (-) TimerEvent: {}
+[10.998446] (gscam) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[11.009769] (gscam) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[11.015750] (-) TimerEvent: {}
+[11.072866] (jetbot_ros) JobEnded: {'identifier': 'jetbot_ros', 'rc': 0}
+[11.115946] (-) TimerEvent: {}
+[11.183867] (gscam) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[11.187973] (gscam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.216154] (-) TimerEvent: {}
+[11.316902] (-) TimerEvent: {}
+[11.417676] (-) TimerEvent: {}
+[11.518404] (-) TimerEvent: {}
+[11.619149] (-) TimerEvent: {}
+[11.719822] (-) TimerEvent: {}
+[11.820534] (-) TimerEvent: {}
+[11.921341] (-) TimerEvent: {}
+[12.022232] (-) TimerEvent: {}
+[12.122991] (-) TimerEvent: {}
+[12.223735] (-) TimerEvent: {}
+[12.324450] (-) TimerEvent: {}
+[12.425162] (-) TimerEvent: {}
+[12.525953] (-) TimerEvent: {}
+[12.626652] (-) TimerEvent: {}
+[12.727372] (-) TimerEvent: {}
+[12.828114] (-) TimerEvent: {}
+[12.928800] (-) TimerEvent: {}
+[13.029488] (-) TimerEvent: {}
+[13.132066] (-) TimerEvent: {}
+[13.233440] (-) TimerEvent: {}
+[13.304765] (gscam) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.4 (/opt/ros/humble/install/share/rclcpp_components/cmake)\n'}
+[13.333695] (-) TimerEvent: {}
+[13.435991] (-) TimerEvent: {}
+[13.536738] (-) TimerEvent: {}
+[13.637452] (-) TimerEvent: {}
+[13.697461] (gscam) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 3.1.5 (/opt/ros/humble/install/share/camera_calibration_parsers/cmake)\n'}
+[13.737716] (-) TimerEvent: {}
+[13.829022] (gscam) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.5 (/opt/ros/humble/install/share/camera_info_manager/cmake)\n'}
+[13.837896] (-) TimerEvent: {}
+[13.934118] (gscam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[13.938046] (-) TimerEvent: {}
+[14.038785] (-) TimerEvent: {}
+[14.139461] (-) TimerEvent: {}
+[14.240199] (-) TimerEvent: {}
+[14.340978] (-) TimerEvent: {}
+[14.441803] (-) TimerEvent: {}
+[14.542604] (-) TimerEvent: {}
+[14.552778] (gscam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/install/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[14.566004] (gscam) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[14.642913] (-) TimerEvent: {}
+[14.744910] (-) TimerEvent: {}
+[14.789018] (gscam) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[14.832560] (gscam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.845099] (-) TimerEvent: {}
+[14.854996] (gscam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.857273] (gscam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jetbot/ece417/ws/src/gscam/include\n'}
+[14.857847] (gscam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.878208] (gscam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.878815] (gscam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.883408] (gscam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.890319] (gscam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.895072] (gscam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.918211] (gscam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.918779] (gscam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.923318] (gscam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.945898] (-) TimerEvent: {}
+[14.949945] (gscam) StdoutLine: {'line': b'-- Configuring done (14.1s)\n'}
+[15.045816] (-) TimerEvent: {}
+[15.080018] (gscam) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[15.090220] (gscam) StdoutLine: {'line': b'-- Build files have been written to: /home/jetbot/ece417/ws/build/gscam\n'}
+[15.146121] (-) TimerEvent: {}
+[15.148956] (gscam) CommandEnded: {'returncode': 0}
+[15.151395] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'build'}
+[15.155620] (gscam) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jetbot/ece417/ws/build/gscam', '--', '-j4', '-l4'], 'cwd': '/home/jetbot/ece417/ws/build/gscam', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano-4gb-jp45'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/home/jetbot/ece417'), ('CYCLONEDDS_URI', 'file:///home/jetbot/ece417/cyclonedds.xml'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/jetbot/ece417/ws/build/gscam'), ('PYTHONPATH', '/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[15.246400] (-) TimerEvent: {}
+[15.347163] (-) TimerEvent: {}
+[15.390921] (gscam) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gscam_node.dir/rclcpp_components/node_main_gscam_node.cpp.o\x1b[0m\n'}
+[15.391756] (gscam) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[15.393403] (gscam) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[15.394720] (gscam) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o\x1b[0m\n'}
+[15.447454] (-) TimerEvent: {}
+[15.548260] (-) TimerEvent: {}
+[15.649017] (-) TimerEvent: {}
+[15.749815] (-) TimerEvent: {}
+[15.850703] (-) TimerEvent: {}
+[15.952334] (-) TimerEvent: {}
+[16.057813] (-) TimerEvent: {}
+[16.160073] (-) TimerEvent: {}
+[16.260941] (-) TimerEvent: {}
+[16.362778] (-) TimerEvent: {}
+[16.464431] (-) TimerEvent: {}
+[16.566545] (-) TimerEvent: {}
+[16.667408] (-) TimerEvent: {}
+[16.770135] (-) TimerEvent: {}
+[16.870976] (-) TimerEvent: {}
+[16.971865] (-) TimerEvent: {}
+[17.073944] (-) TimerEvent: {}
+[17.176324] (-) TimerEvent: {}
+[17.278745] (-) TimerEvent: {}
+[17.381284] (-) TimerEvent: {}
+[17.483930] (-) TimerEvent: {}
+[17.586477] (-) TimerEvent: {}
+[17.688406] (-) TimerEvent: {}
+[17.790198] (-) TimerEvent: {}
+[17.891914] (-) TimerEvent: {}
+[17.994015] (-) TimerEvent: {}
+[18.095689] (-) TimerEvent: {}
+[18.178992] (gscam) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[18.195896] (-) TimerEvent: {}
+[18.232733] (gscam) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[18.296165] (-) TimerEvent: {}
+[18.398516] (-) TimerEvent: {}
+[18.501000] (-) TimerEvent: {}
+[18.603584] (-) TimerEvent: {}
+[18.706031] (-) TimerEvent: {}
+[18.808443] (-) TimerEvent: {}
+[18.910886] (-) TimerEvent: {}
+[19.013251] (-) TimerEvent: {}
+[19.115345] (-) TimerEvent: {}
+[19.217930] (-) TimerEvent: {}
+[19.320336] (-) TimerEvent: {}
+[19.422713] (-) TimerEvent: {}
+[19.525120] (-) TimerEvent: {}
+[19.626068] (-) TimerEvent: {}
+[19.726913] (-) TimerEvent: {}
+[19.838805] (-) TimerEvent: {}
+[19.941137] (-) TimerEvent: {}
+[20.043690] (-) TimerEvent: {}
+[20.149869] (-) TimerEvent: {}
+[20.252204] (-) TimerEvent: {}
+[20.354700] (-) TimerEvent: {}
+[20.456129] (-) TimerEvent: {}
+[20.557029] (-) TimerEvent: {}
+[20.659418] (-) TimerEvent: {}
+[20.761811] (-) TimerEvent: {}
+[20.864343] (-) TimerEvent: {}
+[20.967010] (-) TimerEvent: {}
+[21.069571] (-) TimerEvent: {}
+[21.172201] (-) TimerEvent: {}
+[21.274777] (-) TimerEvent: {}
+[21.377440] (-) TimerEvent: {}
+[21.480159] (-) TimerEvent: {}
+[21.581103] (-) TimerEvent: {}
+[21.683814] (-) TimerEvent: {}
+[21.786311] (-) TimerEvent: {}
+[21.888808] (-) TimerEvent: {}
+[21.991443] (-) TimerEvent: {}
+[22.094026] (-) TimerEvent: {}
+[22.196606] (-) TimerEvent: {}
+[22.299183] (-) TimerEvent: {}
+[22.401753] (-) TimerEvent: {}
+[22.504346] (-) TimerEvent: {}
+[22.606956] (-) TimerEvent: {}
+[22.709421] (-) TimerEvent: {}
+[22.811992] (-) TimerEvent: {}
+[22.914576] (-) TimerEvent: {}
+[23.017097] (-) TimerEvent: {}
+[23.121884] (-) TimerEvent: {}
+[23.224550] (-) TimerEvent: {}
+[23.329031] (-) TimerEvent: {}
+[23.431639] (-) TimerEvent: {}
+[23.534131] (-) TimerEvent: {}
+[23.636802] (-) TimerEvent: {}
+[23.739227] (-) TimerEvent: {}
+[23.841777] (-) TimerEvent: {}
+[23.944297] (-) TimerEvent: {}
+[24.046866] (-) TimerEvent: {}
+[24.149386] (-) TimerEvent: {}
+[24.252109] (-) TimerEvent: {}
+[24.354737] (-) TimerEvent: {}
+[24.456899] (-) TimerEvent: {}
+[24.561826] (-) TimerEvent: {}
+[24.664018] (-) TimerEvent: {}
+[24.764898] (-) TimerEvent: {}
+[24.867561] (-) TimerEvent: {}
+[24.970122] (-) TimerEvent: {}
+[25.072613] (-) TimerEvent: {}
+[25.175256] (-) TimerEvent: {}
+[25.277924] (-) TimerEvent: {}
+[25.380555] (-) TimerEvent: {}
+[25.483026] (-) TimerEvent: {}
+[25.583999] (-) TimerEvent: {}
+[25.684937] (-) TimerEvent: {}
+[25.785818] (-) TimerEvent: {}
+[25.888387] (-) TimerEvent: {}
+[25.991012] (-) TimerEvent: {}
+[26.093802] (-) TimerEvent: {}
+[26.195704] (-) TimerEvent: {}
+[26.298314] (-) TimerEvent: {}
+[26.400870] (-) TimerEvent: {}
+[26.503487] (-) TimerEvent: {}
+[26.606245] (-) TimerEvent: {}
+[26.708881] (-) TimerEvent: {}
+[26.811607] (-) TimerEvent: {}
+[26.914183] (-) TimerEvent: {}
+[27.016862] (-) TimerEvent: {}
+[27.125459] (-) TimerEvent: {}
+[27.227877] (-) TimerEvent: {}
+[27.330367] (-) TimerEvent: {}
+[27.434519] (-) TimerEvent: {}
+[27.535613] (-) TimerEvent: {}
+[27.638066] (-) TimerEvent: {}
+[27.740690] (-) TimerEvent: {}
+[27.843400] (-) TimerEvent: {}
+[27.916143] (gscam) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[27.943666] (-) TimerEvent: {}
+[28.046301] (-) TimerEvent: {}
+[28.147093] (-) TimerEvent: {}
+[28.162258] (gscam) StdoutLine: {'line': b'[ 60%] Built target gtest\n'}
+[28.247393] (-) TimerEvent: {}
+[28.348245] (-) TimerEvent: {}
+[28.449097] (-) TimerEvent: {}
+[28.549936] (-) TimerEvent: {}
+[28.650785] (-) TimerEvent: {}
+[28.751567] (-) TimerEvent: {}
+[28.854156] (-) TimerEvent: {}
+[28.955004] (-) TimerEvent: {}
+[29.055847] (-) TimerEvent: {}
+[29.156698] (-) TimerEvent: {}
+[29.257546] (-) TimerEvent: {}
+[29.358451] (-) TimerEvent: {}
+[29.459305] (-) TimerEvent: {}
+[29.560154] (-) TimerEvent: {}
+[29.661005] (-) TimerEvent: {}
+[29.761844] (-) TimerEvent: {}
+[29.869861] (-) TimerEvent: {}
+[29.972456] (-) TimerEvent: {}
+[30.073317] (-) TimerEvent: {}
+[30.175878] (-) TimerEvent: {}
+[30.276748] (-) TimerEvent: {}
+[30.377602] (-) TimerEvent: {}
+[30.478445] (-) TimerEvent: {}
+[30.579287] (-) TimerEvent: {}
+[30.680132] (-) TimerEvent: {}
+[30.780976] (-) TimerEvent: {}
+[30.881868] (-) TimerEvent: {}
+[30.982642] (-) TimerEvent: {}
+[31.083490] (-) TimerEvent: {}
+[31.184327] (-) TimerEvent: {}
+[31.285172] (-) TimerEvent: {}
+[31.386010] (-) TimerEvent: {}
+[31.486800] (-) TimerEvent: {}
+[31.588013] (-) TimerEvent: {}
+[31.688918] (-) TimerEvent: {}
+[31.789867] (-) TimerEvent: {}
+[31.890773] (-) TimerEvent: {}
+[31.991688] (-) TimerEvent: {}
+[32.092601] (-) TimerEvent: {}
+[32.193534] (-) TimerEvent: {}
+[32.294446] (-) TimerEvent: {}
+[32.395310] (-) TimerEvent: {}
+[32.496158] (-) TimerEvent: {}
+[32.597071] (-) TimerEvent: {}
+[32.697920] (-) TimerEvent: {}
+[32.798676] (-) TimerEvent: {}
+[32.899455] (-) TimerEvent: {}
+[32.921098] (gscam) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable gscam_node\x1b[0m\n'}
+[32.999710] (-) TimerEvent: {}
+[33.100524] (-) TimerEvent: {}
+[33.201480] (-) TimerEvent: {}
+[33.302409] (-) TimerEvent: {}
+[33.403347] (-) TimerEvent: {}
+[33.504347] (-) TimerEvent: {}
+[33.605308] (-) TimerEvent: {}
+[33.618433] (gscam) StdoutLine: {'line': b'[ 70%] Built target gscam_node\n'}
+[33.705567] (-) TimerEvent: {}
+[33.806444] (-) TimerEvent: {}
+[33.907183] (-) TimerEvent: {}
+[34.007974] (-) TimerEvent: {}
+[34.108781] (-) TimerEvent: {}
+[34.209533] (-) TimerEvent: {}
+[34.310411] (-) TimerEvent: {}
+[34.411247] (-) TimerEvent: {}
+[34.512111] (-) TimerEvent: {}
+[34.612978] (-) TimerEvent: {}
+[34.713843] (-) TimerEvent: {}
+[34.814651] (-) TimerEvent: {}
+[34.915403] (-) TimerEvent: {}
+[35.017743] (-) TimerEvent: {}
+[35.118610] (-) TimerEvent: {}
+[35.219490] (-) TimerEvent: {}
+[35.320407] (-) TimerEvent: {}
+[35.421285] (-) TimerEvent: {}
+[35.522198] (-) TimerEvent: {}
+[35.622990] (-) TimerEvent: {}
+[35.723799] (-) TimerEvent: {}
+[35.824546] (-) TimerEvent: {}
+[35.925366] (-) TimerEvent: {}
+[36.026172] (-) TimerEvent: {}
+[36.126958] (-) TimerEvent: {}
+[36.227756] (-) TimerEvent: {}
+[36.328489] (-) TimerEvent: {}
+[36.429280] (-) TimerEvent: {}
+[36.530133] (-) TimerEvent: {}
+[36.630927] (-) TimerEvent: {}
+[36.731719] (-) TimerEvent: {}
+[36.832501] (-) TimerEvent: {}
+[36.933321] (-) TimerEvent: {}
+[37.034165] (-) TimerEvent: {}
+[37.134892] (-) TimerEvent: {}
+[37.235687] (-) TimerEvent: {}
+[37.336478] (-) TimerEvent: {}
+[37.437303] (-) TimerEvent: {}
+[37.538165] (-) TimerEvent: {}
+[37.638956] (-) TimerEvent: {}
+[37.739791] (-) TimerEvent: {}
+[37.840595] (-) TimerEvent: {}
+[37.941332] (-) TimerEvent: {}
+[38.042198] (-) TimerEvent: {}
+[38.143031] (-) TimerEvent: {}
+[38.243853] (-) TimerEvent: {}
+[38.344688] (-) TimerEvent: {}
+[38.445507] (-) TimerEvent: {}
+[38.546391] (-) TimerEvent: {}
+[38.647128] (-) TimerEvent: {}
+[38.747871] (-) TimerEvent: {}
+[38.848619] (-) TimerEvent: {}
+[38.949448] (-) TimerEvent: {}
+[39.050334] (-) TimerEvent: {}
+[39.151147] (-) TimerEvent: {}
+[39.251959] (-) TimerEvent: {}
+[39.352776] (-) TimerEvent: {}
+[39.453577] (-) TimerEvent: {}
+[39.554809] (-) TimerEvent: {}
+[39.655613] (-) TimerEvent: {}
+[39.756452] (-) TimerEvent: {}
+[39.857254] (-) TimerEvent: {}
+[39.958091] (-) TimerEvent: {}
+[40.058897] (-) TimerEvent: {}
+[40.159696] (-) TimerEvent: {}
+[40.260490] (-) TimerEvent: {}
+[40.361279] (-) TimerEvent: {}
+[40.462127] (-) TimerEvent: {}
+[40.562921] (-) TimerEvent: {}
+[40.663711] (-) TimerEvent: {}
+[40.764485] (-) TimerEvent: {}
+[40.865361] (-) TimerEvent: {}
+[40.966171] (-) TimerEvent: {}
+[41.066951] (-) TimerEvent: {}
+[41.167747] (-) TimerEvent: {}
+[41.268509] (-) TimerEvent: {}
+[41.369294] (-) TimerEvent: {}
+[41.470380] (-) TimerEvent: {}
+[41.571160] (-) TimerEvent: {}
+[41.671961] (-) TimerEvent: {}
+[41.772751] (-) TimerEvent: {}
+[41.873549] (-) TimerEvent: {}
+[41.974414] (-) TimerEvent: {}
+[42.075203] (-) TimerEvent: {}
+[42.175998] (-) TimerEvent: {}
+[42.276804] (-) TimerEvent: {}
+[42.377685] (-) TimerEvent: {}
+[42.478550] (-) TimerEvent: {}
+[42.579375] (-) TimerEvent: {}
+[42.637435] (gscam) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libgscam.so\x1b[0m\n'}
+[42.679629] (-) TimerEvent: {}
+[42.780416] (-) TimerEvent: {}
+[42.881340] (-) TimerEvent: {}
+[42.982242] (-) TimerEvent: {}
+[43.083149] (-) TimerEvent: {}
+[43.184098] (-) TimerEvent: {}
+[43.284914] (-) TimerEvent: {}
+[43.385848] (-) TimerEvent: {}
+[43.486760] (-) TimerEvent: {}
+[43.587748] (-) TimerEvent: {}
+[43.688680] (-) TimerEvent: {}
+[43.789592] (-) TimerEvent: {}
+[43.890419] (-) TimerEvent: {}
+[43.991261] (-) TimerEvent: {}
+[44.091992] (-) TimerEvent: {}
+[44.125794] (gscam) StdoutLine: {'line': b'[ 80%] Built target gscam\n'}
+[44.155535] (gscam) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/smoke_test.dir/test/smoke_test.cpp.o\x1b[0m\n'}
+[44.192223] (-) TimerEvent: {}
+[44.292989] (-) TimerEvent: {}
+[44.393778] (-) TimerEvent: {}
+[44.494479] (-) TimerEvent: {}
+[44.595239] (-) TimerEvent: {}
+[44.695959] (-) TimerEvent: {}
+[44.796744] (-) TimerEvent: {}
+[44.897539] (-) TimerEvent: {}
+[44.998311] (-) TimerEvent: {}
+[45.099188] (-) TimerEvent: {}
+[45.206078] (-) TimerEvent: {}
+[45.306792] (-) TimerEvent: {}
+[45.407559] (-) TimerEvent: {}
+[45.508328] (-) TimerEvent: {}
+[45.609128] (-) TimerEvent: {}
+[45.709981] (-) TimerEvent: {}
+[45.810776] (-) TimerEvent: {}
+[45.911576] (-) TimerEvent: {}
+[46.012359] (-) TimerEvent: {}
+[46.113161] (-) TimerEvent: {}
+[46.213946] (-) TimerEvent: {}
+[46.314737] (-) TimerEvent: {}
+[46.415617] (-) TimerEvent: {}
+[46.517185] (-) TimerEvent: {}
+[46.618104] (-) TimerEvent: {}
+[46.718974] (-) TimerEvent: {}
+[46.819777] (-) TimerEvent: {}
+[46.920584] (-) TimerEvent: {}
+[47.021388] (-) TimerEvent: {}
+[47.122215] (-) TimerEvent: {}
+[47.223012] (-) TimerEvent: {}
+[47.323756] (-) TimerEvent: {}
+[47.424585] (-) TimerEvent: {}
+[47.525396] (-) TimerEvent: {}
+[47.626293] (-) TimerEvent: {}
+[47.727141] (-) TimerEvent: {}
+[47.828103] (-) TimerEvent: {}
+[47.928915] (-) TimerEvent: {}
+[48.029785] (-) TimerEvent: {}
+[48.130587] (-) TimerEvent: {}
+[48.231393] (-) TimerEvent: {}
+[48.332214] (-) TimerEvent: {}
+[48.433034] (-) TimerEvent: {}
+[48.533858] (-) TimerEvent: {}
+[48.634662] (-) TimerEvent: {}
+[48.735478] (-) TimerEvent: {}
+[48.836290] (-) TimerEvent: {}
+[48.937091] (-) TimerEvent: {}
+[49.037887] (-) TimerEvent: {}
+[49.138699] (-) TimerEvent: {}
+[49.239533] (-) TimerEvent: {}
+[49.340335] (-) TimerEvent: {}
+[49.441087] (-) TimerEvent: {}
+[49.541969] (-) TimerEvent: {}
+[49.642718] (-) TimerEvent: {}
+[49.743470] (-) TimerEvent: {}
+[49.844221] (-) TimerEvent: {}
+[49.945078] (-) TimerEvent: {}
+[50.046002] (-) TimerEvent: {}
+[50.146743] (-) TimerEvent: {}
+[50.247589] (-) TimerEvent: {}
+[50.348399] (-) TimerEvent: {}
+[50.449139] (-) TimerEvent: {}
+[50.550018] (-) TimerEvent: {}
+[50.650810] (-) TimerEvent: {}
+[50.751617] (-) TimerEvent: {}
+[50.852431] (-) TimerEvent: {}
+[50.953261] (-) TimerEvent: {}
+[51.054127] (-) TimerEvent: {}
+[51.154868] (-) TimerEvent: {}
+[51.255631] (-) TimerEvent: {}
+[51.356383] (-) TimerEvent: {}
+[51.457190] (-) TimerEvent: {}
+[51.558084] (-) TimerEvent: {}
+[51.658822] (-) TimerEvent: {}
+[51.759630] (-) TimerEvent: {}
+[51.860459] (-) TimerEvent: {}
+[51.961306] (-) TimerEvent: {}
+[52.062176] (-) TimerEvent: {}
+[52.162992] (-) TimerEvent: {}
+[52.263830] (-) TimerEvent: {}
+[52.364570] (-) TimerEvent: {}
+[52.465389] (-) TimerEvent: {}
+[52.566276] (-) TimerEvent: {}
+[52.667079] (-) TimerEvent: {}
+[52.767888] (-) TimerEvent: {}
+[52.868698] (-) TimerEvent: {}
+[52.969507] (-) TimerEvent: {}
+[53.070436] (-) TimerEvent: {}
+[53.171249] (-) TimerEvent: {}
+[53.272072] (-) TimerEvent: {}
+[53.372884] (-) TimerEvent: {}
+[53.473754] (-) TimerEvent: {}
+[53.574674] (-) TimerEvent: {}
+[53.675416] (-) TimerEvent: {}
+[53.776228] (-) TimerEvent: {}
+[53.877033] (-) TimerEvent: {}
+[53.977839] (-) TimerEvent: {}
+[54.078637] (-) TimerEvent: {}
+[54.179437] (-) TimerEvent: {}
+[54.280248] (-) TimerEvent: {}
+[54.381054] (-) TimerEvent: {}
+[54.481855] (-) TimerEvent: {}
+[54.582612] (-) TimerEvent: {}
+[54.683474] (-) TimerEvent: {}
+[54.784299] (-) TimerEvent: {}
+[54.885127] (-) TimerEvent: {}
+[54.986695] (-) TimerEvent: {}
+[55.087505] (-) TimerEvent: {}
+[55.188322] (-) TimerEvent: {}
+[55.289141] (-) TimerEvent: {}
+[55.390072] (-) TimerEvent: {}
+[55.490946] (-) TimerEvent: {}
+[55.591820] (-) TimerEvent: {}
+[55.692710] (-) TimerEvent: {}
+[55.793798] (-) TimerEvent: {}
+[55.894566] (-) TimerEvent: {}
+[55.995431] (-) TimerEvent: {}
+[56.096251] (-) TimerEvent: {}
+[56.197065] (-) TimerEvent: {}
+[56.297874] (-) TimerEvent: {}
+[56.398683] (-) TimerEvent: {}
+[56.499495] (-) TimerEvent: {}
+[56.600322] (-) TimerEvent: {}
+[56.701077] (-) TimerEvent: {}
+[56.801955] (-) TimerEvent: {}
+[56.902757] (-) TimerEvent: {}
+[57.003577] (-) TimerEvent: {}
+[57.104401] (-) TimerEvent: {}
+[57.205210] (-) TimerEvent: {}
+[57.306021] (-) TimerEvent: {}
+[57.406875] (-) TimerEvent: {}
+[57.507669] (-) TimerEvent: {}
+[57.608475] (-) TimerEvent: {}
+[57.709225] (-) TimerEvent: {}
+[57.810119] (-) TimerEvent: {}
+[57.910921] (-) TimerEvent: {}
+[58.011722] (-) TimerEvent: {}
+[58.112536] (-) TimerEvent: {}
+[58.213348] (-) TimerEvent: {}
+[58.314888] (-) TimerEvent: {}
+[58.415698] (-) TimerEvent: {}
+[58.516882] (-) TimerEvent: {}
+[58.617770] (-) TimerEvent: {}
+[58.718629] (-) TimerEvent: {}
+[58.819494] (-) TimerEvent: {}
+[58.920312] (-) TimerEvent: {}
+[59.021131] (-) TimerEvent: {}
+[59.122026] (-) TimerEvent: {}
+[59.222837] (-) TimerEvent: {}
+[59.323637] (-) TimerEvent: {}
+[59.424449] (-) TimerEvent: {}
+[59.525266] (-) TimerEvent: {}
+[59.626150] (-) TimerEvent: {}
+[59.726964] (-) TimerEvent: {}
+[59.827772] (-) TimerEvent: {}
+[59.928637] (-) TimerEvent: {}
+[60.031128] (-) TimerEvent: {}
+[60.132129] (-) TimerEvent: {}
+[60.232996] (-) TimerEvent: {}
+[60.333853] (-) TimerEvent: {}
+[60.434671] (-) TimerEvent: {}
+[60.536780] (-) TimerEvent: {}
+[60.637611] (-) TimerEvent: {}
+[60.738499] (-) TimerEvent: {}
+[60.839327] (-) TimerEvent: {}
+[60.940140] (-) TimerEvent: {}
+[61.041031] (-) TimerEvent: {}
+[61.141916] (-) TimerEvent: {}
+[61.242772] (-) TimerEvent: {}
+[61.343679] (-) TimerEvent: {}
+[61.446937] (-) TimerEvent: {}
+[61.547760] (-) TimerEvent: {}
+[61.648575] (-) TimerEvent: {}
+[61.749418] (-) TimerEvent: {}
+[61.850334] (-) TimerEvent: {}
+[61.951204] (-) TimerEvent: {}
+[62.052070] (-) TimerEvent: {}
+[62.152949] (-) TimerEvent: {}
+[62.253817] (-) TimerEvent: {}
+[62.354685] (-) TimerEvent: {}
+[62.455561] (-) TimerEvent: {}
+[62.556444] (-) TimerEvent: {}
+[62.657323] (-) TimerEvent: {}
+[62.758360] (-) TimerEvent: {}
+[62.859182] (-) TimerEvent: {}
+[62.960010] (-) TimerEvent: {}
+[63.060831] (-) TimerEvent: {}
+[63.161723] (-) TimerEvent: {}
+[63.262538] (-) TimerEvent: {}
+[63.363393] (-) TimerEvent: {}
+[63.464215] (-) TimerEvent: {}
+[63.565035] (-) TimerEvent: {}
+[63.665886] (-) TimerEvent: {}
+[63.766700] (-) TimerEvent: {}
+[63.867510] (-) TimerEvent: {}
+[63.968324] (-) TimerEvent: {}
+[64.069079] (-) TimerEvent: {}
+[64.169997] (-) TimerEvent: {}
+[64.270819] (-) TimerEvent: {}
+[64.371636] (-) TimerEvent: {}
+[64.472449] (-) TimerEvent: {}
+[64.573271] (-) TimerEvent: {}
+[64.674497] (-) TimerEvent: {}
+[64.775384] (-) TimerEvent: {}
+[64.876265] (-) TimerEvent: {}
+[64.977092] (-) TimerEvent: {}
+[65.077962] (-) TimerEvent: {}
+[65.178782] (-) TimerEvent: {}
+[65.279618] (-) TimerEvent: {}
+[65.380444] (-) TimerEvent: {}
+[65.481283] (-) TimerEvent: {}
+[65.582259] (-) TimerEvent: {}
+[65.683166] (-) TimerEvent: {}
+[65.784047] (-) TimerEvent: {}
+[65.884927] (-) TimerEvent: {}
+[65.985746] (-) TimerEvent: {}
+[66.086573] (-) TimerEvent: {}
+[66.187415] (-) TimerEvent: {}
+[66.288166] (-) TimerEvent: {}
+[66.388936] (-) TimerEvent: {}
+[66.489777] (-) TimerEvent: {}
+[66.590559] (-) TimerEvent: {}
+[66.691356] (-) TimerEvent: {}
+[66.792182] (-) TimerEvent: {}
+[66.895602] (-) TimerEvent: {}
+[66.996459] (-) TimerEvent: {}
+[67.097337] (-) TimerEvent: {}
+[67.198223] (-) TimerEvent: {}
+[67.299093] (-) TimerEvent: {}
+[67.399953] (-) TimerEvent: {}
+[67.500833] (-) TimerEvent: {}
+[67.601758] (-) TimerEvent: {}
+[67.702638] (-) TimerEvent: {}
+[67.803536] (-) TimerEvent: {}
+[67.904515] (-) TimerEvent: {}
+[68.006662] (-) TimerEvent: {}
+[68.107544] (-) TimerEvent: {}
+[68.208455] (-) TimerEvent: {}
+[68.309313] (-) TimerEvent: {}
+[68.410287] (-) TimerEvent: {}
+[68.511241] (-) TimerEvent: {}
+[68.612095] (-) TimerEvent: {}
+[68.712961] (-) TimerEvent: {}
+[68.813824] (-) TimerEvent: {}
+[68.914684] (-) TimerEvent: {}
+[69.015484] (-) TimerEvent: {}
+[69.116293] (-) TimerEvent: {}
+[69.217090] (-) TimerEvent: {}
+[69.317996] (-) TimerEvent: {}
+[69.418782] (-) TimerEvent: {}
+[69.519621] (-) TimerEvent: {}
+[69.620480] (-) TimerEvent: {}
+[69.721278] (-) TimerEvent: {}
+[69.822792] (-) TimerEvent: {}
+[69.923586] (-) TimerEvent: {}
+[70.024394] (-) TimerEvent: {}
+[70.125201] (-) TimerEvent: {}
+[70.226652] (-) TimerEvent: {}
+[70.327386] (-) TimerEvent: {}
+[70.428192] (-) TimerEvent: {}
+[70.528999] (-) TimerEvent: {}
+[70.629781] (-) TimerEvent: {}
+[70.730704] (-) TimerEvent: {}
+[70.831505] (-) TimerEvent: {}
+[70.933291] (-) TimerEvent: {}
+[71.034121] (-) TimerEvent: {}
+[71.134905] (-) TimerEvent: {}
+[71.235690] (-) TimerEvent: {}
+[71.336493] (-) TimerEvent: {}
+[71.437315] (-) TimerEvent: {}
+[71.538204] (-) TimerEvent: {}
+[71.639009] (-) TimerEvent: {}
+[71.739801] (-) TimerEvent: {}
+[71.840535] (-) TimerEvent: {}
+[71.941345] (-) TimerEvent: {}
+[72.042218] (-) TimerEvent: {}
+[72.143006] (-) TimerEvent: {}
+[72.243828] (-) TimerEvent: {}
+[72.345715] (-) TimerEvent: {}
+[72.446514] (-) TimerEvent: {}
+[72.547373] (-) TimerEvent: {}
+[72.648236] (-) TimerEvent: {}
+[72.749096] (-) TimerEvent: {}
+[72.850015] (-) TimerEvent: {}
+[72.950866] (-) TimerEvent: {}
+[73.051724] (-) TimerEvent: {}
+[73.152581] (-) TimerEvent: {}
+[73.253441] (-) TimerEvent: {}
+[73.354317] (-) TimerEvent: {}
+[73.455217] (-) TimerEvent: {}
+[73.556088] (-) TimerEvent: {}
+[73.656986] (-) TimerEvent: {}
+[73.757874] (-) TimerEvent: {}
+[73.858736] (-) TimerEvent: {}
+[73.959588] (-) TimerEvent: {}
+[74.060335] (-) TimerEvent: {}
+[74.161074] (-) TimerEvent: {}
+[74.261866] (-) TimerEvent: {}
+[74.362652] (-) TimerEvent: {}
+[74.463441] (-) TimerEvent: {}
+[74.564242] (-) TimerEvent: {}
+[74.665029] (-) TimerEvent: {}
+[74.765884] (-) TimerEvent: {}
+[74.866638] (-) TimerEvent: {}
+[74.967440] (-) TimerEvent: {}
+[75.068277] (-) TimerEvent: {}
+[75.169078] (-) TimerEvent: {}
+[75.269867] (-) TimerEvent: {}
+[75.370661] (-) TimerEvent: {}
+[75.471459] (-) TimerEvent: {}
+[75.572257] (-) TimerEvent: {}
+[75.673042] (-) TimerEvent: {}
+[75.775083] (-) TimerEvent: {}
+[75.924731] (-) TimerEvent: {}
+[76.025517] (-) TimerEvent: {}
+[76.126345] (-) TimerEvent: {}
+[76.227146] (-) TimerEvent: {}
+[76.328311] (-) TimerEvent: {}
+[76.429174] (-) TimerEvent: {}
+[76.530789] (-) TimerEvent: {}
+[76.631581] (-) TimerEvent: {}
+[76.732441] (-) TimerEvent: {}
+[76.833229] (-) TimerEvent: {}
+[76.934208] (-) TimerEvent: {}
+[77.035004] (-) TimerEvent: {}
+[77.135805] (-) TimerEvent: {}
+[77.236607] (-) TimerEvent: {}
+[77.337347] (-) TimerEvent: {}
+[77.438140] (-) TimerEvent: {}
+[77.538933] (-) TimerEvent: {}
+[77.639762] (-) TimerEvent: {}
+[77.740570] (-) TimerEvent: {}
+[77.841304] (-) TimerEvent: {}
+[77.942165] (-) TimerEvent: {}
+[78.042961] (-) TimerEvent: {}
+[78.143757] (-) TimerEvent: {}
+[78.244553] (-) TimerEvent: {}
+[78.345291] (-) TimerEvent: {}
+[78.446145] (-) TimerEvent: {}
+[78.546936] (-) TimerEvent: {}
+[78.647738] (-) TimerEvent: {}
+[78.748487] (-) TimerEvent: {}
+[78.849349] (-) TimerEvent: {}
+[78.950242] (-) TimerEvent: {}
+[79.051035] (-) TimerEvent: {}
+[79.151844] (-) TimerEvent: {}
+[79.252698] (-) TimerEvent: {}
+[79.353565] (-) TimerEvent: {}
+[79.454413] (-) TimerEvent: {}
+[79.464645] (gscam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smoke_test\x1b[0m\n'}
+[79.554606] (-) TimerEvent: {}
+[79.655374] (-) TimerEvent: {}
+[79.756150] (-) TimerEvent: {}
+[79.857027] (-) TimerEvent: {}
+[79.957973] (-) TimerEvent: {}
+[80.058841] (-) TimerEvent: {}
+[80.159747] (-) TimerEvent: {}
+[80.260715] (-) TimerEvent: {}
+[80.361603] (-) TimerEvent: {}
+[80.462521] (-) TimerEvent: {}
+[80.563403] (-) TimerEvent: {}
+[80.664349] (-) TimerEvent: {}
+[80.765206] (-) TimerEvent: {}
+[80.867462] (-) TimerEvent: {}
+[80.968348] (-) TimerEvent: {}
+[81.069222] (-) TimerEvent: {}
+[81.170103] (-) TimerEvent: {}
+[81.270876] (-) TimerEvent: {}
+[81.371672] (-) TimerEvent: {}
+[81.472488] (-) TimerEvent: {}
+[81.573345] (-) TimerEvent: {}
+[81.674220] (-) TimerEvent: {}
+[81.774976] (-) TimerEvent: {}
+[81.875766] (-) TimerEvent: {}
+[81.972638] (gscam) StdoutLine: {'line': b'[100%] Built target smoke_test\n'}
+[81.975921] (-) TimerEvent: {}
+[82.005667] (gscam) CommandEnded: {'returncode': 0}
+[82.076247] (-) TimerEvent: {}
+[82.177180] (-) TimerEvent: {}
+[82.268344] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'install'}
+[82.277521] (-) TimerEvent: {}
+[82.378481] (-) TimerEvent: {}
+[82.445803] (gscam) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/jetbot/ece417/ws/build/gscam'], 'cwd': '/home/jetbot/ece417/ws/build/gscam', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano-4gb-jp45'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/home/jetbot/ece417'), ('CYCLONEDDS_URI', 'file:///home/jetbot/ece417/cyclonedds.xml'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/jetbot/ece417/ws/build/gscam'), ('PYTHONPATH', '/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[82.478724] (-) TimerEvent: {}
+[82.579593] (-) TimerEvent: {}
+[82.610211] (gscam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[82.611833] (gscam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[82.613061] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/lib/gscam/gscam_node\n'}
+[82.625512] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/library_path.sh\n'}
+[82.633764] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/library_path.dsv\n'}
+[82.642367] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/package_run_dependencies/gscam\n'}
+[82.650852] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/parent_prefix_path/gscam\n'}
+[82.659352] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/ament_prefix_path.sh\n'}
+[82.667725] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/ament_prefix_path.dsv\n'}
+[82.676502] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/path.sh\n'}
+[82.679873] (-) TimerEvent: {}
+[82.684986] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/path.dsv\n'}
+[82.694011] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.bash\n'}
+[82.702372] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.sh\n'}
+[82.710694] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.zsh\n'}
+[82.721467] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.dsv\n'}
+[82.730051] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/package.dsv\n'}
+[82.738548] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/packages/gscam\n'}
+[82.747285] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/rclcpp_components/gscam\n'}
+[82.756658] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[82.765921] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[82.774173] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[82.780158] (-) TimerEvent: {}
+[82.782549] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[82.791501] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/gscamConfig.cmake\n'}
+[82.799621] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/gscamConfig-version.cmake\n'}
+[82.808709] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/package.xml\n'}
+[82.818756] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/component_pipeline_launch.py\n'}
+[82.827877] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/decklink.launch.xml\n'}
+[82.837565] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/minoru.launch.xml\n'}
+[82.848612] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/osx.launch.xml\n'}
+[82.858210] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/uncalibrated_parameters.ini\n'}
+[82.866565] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/v4l.launch.xml\n'}
+[82.874615] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/v4ljpeg.launch.xml\n'}
+[82.880389] (-) TimerEvent: {}
+[82.882900] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/videofile.launch.xml\n'}
+[82.892805] (gscam) StdoutLine: {'line': b'-- Installing: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/export_gscamExport.cmake\n'}
+[82.893570] (gscam) StdoutLine: {'line': b'-- Installing: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake\n'}
+[82.894422] (gscam) StdoutLine: {'line': b'-- Installing: /home/jetbot/ece417/ws/install/gscam/lib/libgscam.so\n'}
+[82.903980] (gscam) StdoutLine: {'line': b'-- Set runtime path of "/home/jetbot/ece417/ws/install/gscam/lib/libgscam.so" to ""\n'}
+[82.932311] (gscam) CommandEnded: {'returncode': 0}
+[82.985116] (-) TimerEvent: {}
+[83.090969] (-) TimerEvent: {}
+[83.193583] (-) TimerEvent: {}
+[83.294625] (-) TimerEvent: {}
+[83.395400] (-) TimerEvent: {}
+[83.501400] (-) TimerEvent: {}
+[83.614854] (-) TimerEvent: {}
+[83.659643] (gscam) JobEnded: {'identifier': 'gscam', 'rc': 0}
+[83.665875] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/uninstall.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/aruco_opencv_uninstall.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/aruco_opencv.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/aruco_tracker.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/aruco_tracker_autostart.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/test.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/edit_cache.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/rebuild_cache.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/list_install_components.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/install.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/install/local.dir
+/home/jetbot/ece417/ws/build/aruco_opencv/CMakeFiles/install/strip.dir

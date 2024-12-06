@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetbot/ece417/ws/build/aruco_opencv_msgs/rosidl_generator_py/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so" "TARGETS" "aruco_opencv_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.6/site-packages/aruco_opencv_msgs")

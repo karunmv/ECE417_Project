@@ -1,0 +1,1 @@
+/home/jetbot/ece417/ws/build/aruco_opencv_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

@@ -1,0 +1,1 @@
+/home/jetbot/ece417/ws/build/aruco_opencv_msgs/rosidl_generator_c/aruco_opencv_msgs/msg/rosidl_generator_c__visibility_control.h

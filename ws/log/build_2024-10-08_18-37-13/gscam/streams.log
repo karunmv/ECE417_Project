@@ -1,0 +1,117 @@
+[0.542s] Invoking command in '/home/jetbot/ece417/ws/build/gscam': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/jetbot/ece417/ws/src/gscam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetbot/ece417/ws/install/gscam
+[2.535s] -- The C compiler identification is GNU 7.5.0
+[2.540s] -- The CXX compiler identification is GNU 7.5.0
+[2.541s] -- Detecting C compiler ABI info
+[2.542s] -- Detecting C compiler ABI info - done
+[2.542s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.543s] -- Detecting C compile features
+[2.544s] -- Detecting C compile features - done
+[2.544s] -- Detecting CXX compiler ABI info
+[2.545s] -- Detecting CXX compiler ABI info - done
+[2.545s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.546s] -- Detecting CXX compile features
+[2.546s] -- Detecting CXX compile features - done
+[2.547s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.547s] -- Checking for module 'gstreamer-1.0'
+[2.548s] --   Found gstreamer-1.0, version 1.14.5
+[2.675s] -- Checking for module 'gstreamer-app-1.0'
+[2.727s] --   Found gstreamer-app-1.0, version 1.14.5
+[2.877s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[8.248s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[8.743s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.940s] -- Found class_loader: 2.2.0 (/opt/ros/humble/install/share/class_loader/cmake)
+[9.057s] -- Found image_transport: 3.1.5 (/opt/ros/humble/install/share/image_transport/cmake)
+[9.377s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[9.417s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[9.482s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[9.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.709s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.215s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[10.236s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[10.505s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[10.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.817s] -- Looking for pthread_create in pthreads
+[11.008s] -- Looking for pthread_create in pthreads - not found
+[11.009s] -- Looking for pthread_create in pthread
+[11.183s] -- Looking for pthread_create in pthread - found
+[11.187s] -- Found Threads: TRUE  
+[13.304s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/install/share/rclcpp_components/cmake)
+[13.697s] -- Found camera_calibration_parsers: 3.1.5 (/opt/ros/humble/install/share/camera_calibration_parsers/cmake)
+[13.828s] -- Found camera_info_manager: 3.1.5 (/opt/ros/humble/install/share/camera_info_manager/cmake)
+[13.933s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[14.552s] -- Found gtest sources under '/opt/ros/humble/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.565s] -- Check if compiler accepts -pthread
+[14.788s] -- Check if compiler accepts -pthread - yes
+[14.832s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.854s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.856s] -- Configured cppcheck include dirs: /home/jetbot/ece417/ws/src/gscam/include
+[14.857s] -- Configured cppcheck exclude dirs and/or files: 
+[14.877s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.878s] -- Configured cpplint exclude dirs and/or files: 
+[14.882s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.889s] -- Added test 'lint_cmake' to check CMake code style
+[14.894s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.917s] -- Added test 'uncrustify' to check C / C++ code style
+[14.918s] -- Configured uncrustify additional arguments: 
+[14.922s] -- Added test 'xmllint' to check XML markup files
+[14.949s] -- Configuring done (14.1s)
+[15.079s] -- Generating done (0.1s)
+[15.089s] -- Build files have been written to: /home/jetbot/ece417/ws/build/gscam
+[15.149s] Invoked command in '/home/jetbot/ece417/ws/build/gscam' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/jetbot/ece417/ws/src/gscam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetbot/ece417/ws/install/gscam
+[15.159s] Invoking command in '/home/jetbot/ece417/ws/build/gscam': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/gscam -- -j4 -l4
+[15.390s] [ 20%] [32mBuilding CXX object CMakeFiles/gscam_node.dir/rclcpp_components/node_main_gscam_node.cpp.o[0m
+[15.391s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[15.393s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[15.394s] [ 40%] [32mBuilding CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o[0m
+[18.178s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[18.232s] [ 50%] Built target gtest_main
+[27.915s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[28.161s] [ 60%] Built target gtest
+[32.920s] [ 70%] [32m[1mLinking CXX executable gscam_node[0m
+[33.618s] [ 70%] Built target gscam_node
+[42.637s] [ 80%] [32m[1mLinking CXX shared library libgscam.so[0m
+[44.125s] [ 80%] Built target gscam
+[44.155s] [ 90%] [32mBuilding CXX object CMakeFiles/smoke_test.dir/test/smoke_test.cpp.o[0m
+[79.464s] [100%] [32m[1mLinking CXX executable smoke_test[0m
+[81.972s] [100%] Built target smoke_test
+[82.005s] Invoked command in '/home/jetbot/ece417/ws/build/gscam' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/gscam -- -j4 -l4
+[82.455s] Invoking command in '/home/jetbot/ece417/ws/build/gscam': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/gscam
+[82.609s] -- Install configuration: ""
+[82.611s] -- Execute custom install script
+[82.612s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/lib/gscam/gscam_node
+[82.625s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/library_path.sh
+[82.633s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/library_path.dsv
+[82.641s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/package_run_dependencies/gscam
+[82.650s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/parent_prefix_path/gscam
+[82.658s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/ament_prefix_path.sh
+[82.667s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/ament_prefix_path.dsv
+[82.676s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/path.sh
+[82.684s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/path.dsv
+[82.693s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.bash
+[82.701s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.sh
+[82.710s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.zsh
+[82.721s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.dsv
+[82.729s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/package.dsv
+[82.738s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/packages/gscam
+[82.746s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/rclcpp_components/gscam
+[82.756s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_dependencies-extras.cmake
+[82.765s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_include_directories-extras.cmake
+[82.773s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_targets-extras.cmake
+[82.782s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_libraries-extras.cmake
+[82.791s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/gscamConfig.cmake
+[82.799s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/gscamConfig-version.cmake
+[82.808s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/package.xml
+[82.818s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/component_pipeline_launch.py
+[82.827s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/decklink.launch.xml
+[82.837s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/minoru.launch.xml
+[82.848s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/osx.launch.xml
+[82.857s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/uncalibrated_parameters.ini
+[82.866s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/v4l.launch.xml
+[82.874s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/v4ljpeg.launch.xml
+[82.882s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/videofile.launch.xml
+[82.892s] -- Installing: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/export_gscamExport.cmake
+[82.893s] -- Installing: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake
+[82.893s] -- Installing: /home/jetbot/ece417/ws/install/gscam/lib/libgscam.so
+[82.903s] -- Set runtime path of "/home/jetbot/ece417/ws/install/gscam/lib/libgscam.so" to ""
+[82.937s] Invoked command in '/home/jetbot/ece417/ws/build/gscam' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/gscam

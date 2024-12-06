@@ -1,0 +1,1 @@
+/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv_msgs/msg/ArucoDetection.msg

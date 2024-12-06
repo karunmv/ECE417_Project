@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000686] (jetbot_ros) JobQueued: {'identifier': 'jetbot_ros', 'dependencies': OrderedDict()}
+[0.001984] (jetbot_ros) JobStarted: {'identifier': 'jetbot_ros'}
+[0.093079] (-) TimerEvent: {}
+[0.194329] (-) TimerEvent: {}
+[0.295272] (-) TimerEvent: {}
+[0.396246] (-) TimerEvent: {}
+[0.496966] (-) TimerEvent: {}
+[0.597683] (-) TimerEvent: {}
+[0.698395] (-) TimerEvent: {}
+[0.799057] (-) TimerEvent: {}
+[0.899715] (-) TimerEvent: {}
+[1.000411] (-) TimerEvent: {}
+[1.101299] (-) TimerEvent: {}
+[1.201978] (-) TimerEvent: {}
+[1.302697] (-) TimerEvent: {}
+[1.403465] (-) TimerEvent: {}
+[1.504195] (-) TimerEvent: {}
+[1.605060] (-) TimerEvent: {}
+[1.705755] (-) TimerEvent: {}
+[1.806518] (-) TimerEvent: {}
+[1.912419] (-) TimerEvent: {}
+[2.019344] (-) TimerEvent: {}
+[2.121744] (-) TimerEvent: {}
+[2.222808] (-) TimerEvent: {}
+[2.323513] (-) TimerEvent: {}
+[2.424210] (-) TimerEvent: {}
+[2.524926] (-) TimerEvent: {}
+[2.625636] (-) TimerEvent: {}
+[2.726385] (-) TimerEvent: {}
+[2.827117] (-) TimerEvent: {}
+[2.927824] (-) TimerEvent: {}
+[3.028664] (-) TimerEvent: {}
+[3.129406] (-) TimerEvent: {}
+[3.230101] (-) TimerEvent: {}
+[3.330820] (-) TimerEvent: {}
+[3.431565] (-) TimerEvent: {}
+[3.532273] (-) TimerEvent: {}
+[3.632975] (-) TimerEvent: {}
+[3.733702] (-) TimerEvent: {}
+[3.834432] (-) TimerEvent: {}
+[3.935137] (-) TimerEvent: {}
+[4.035960] (-) TimerEvent: {}
+[4.136980] (-) TimerEvent: {}
+[4.237718] (-) TimerEvent: {}
+[4.338521] (-) TimerEvent: {}
+[4.439351] (-) TimerEvent: {}
+[4.485714] (jetbot_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jetbot/ece417/ws/build/jetbot_ros/build', '--no-deps', 'install_data'], 'cwd': '/home/jetbot/ece417/ws/build/jetbot_ros', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'nano-4gb-jp45', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:', 'SHLVL': '1', 'OLDPWD': '/home/jetbot/ece417', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/home/jetbot/ece417/ws/build/jetbot_ros', 'PYTHONPATH': '/home/jetbot/ece417/ws/build/jetbot_ros/prefix_override:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[4.539646] (-) TimerEvent: {}
+[4.640546] (-) TimerEvent: {}
+[4.741320] (-) TimerEvent: {}
+[4.842023] (-) TimerEvent: {}
+[4.942794] (-) TimerEvent: {}
+[5.043557] (-) TimerEvent: {}
+[5.144303] (-) TimerEvent: {}
+[5.244990] (-) TimerEvent: {}
+[5.345677] (-) TimerEvent: {}
+[5.446381] (-) TimerEvent: {}
+[5.547156] (-) TimerEvent: {}
+[5.647889] (-) TimerEvent: {}
+[5.748605] (-) TimerEvent: {}
+[5.849451] (-) TimerEvent: {}
+[5.878971] (jetbot_ros) StderrLine: {'line': b"/usr/local/lib/python3.6/dist-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.879839] (jetbot_ros) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[5.949674] (-) TimerEvent: {}
+[6.050432] (-) TimerEvent: {}
+[6.119994] (jetbot_ros) StdoutLine: {'line': b'running develop\n'}
+[6.123278] (jetbot_ros) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.123857] (jetbot_ros) StderrLine: {'line': b'  EasyInstallDeprecationWarning,\n'}
+[6.130226] (jetbot_ros) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.130853] (jetbot_ros) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[6.150630] (-) TimerEvent: {}
+[6.251288] (-) TimerEvent: {}
+[6.352005] (-) TimerEvent: {}
+[6.452676] (-) TimerEvent: {}
+[6.556176] (-) TimerEvent: {}
+[6.656895] (-) TimerEvent: {}
+[6.757629] (-) TimerEvent: {}
+[6.858331] (-) TimerEvent: {}
+[6.959069] (-) TimerEvent: {}
+[7.045231] (jetbot_ros) StdoutLine: {'line': b'running egg_info\n'}
+[7.046041] (jetbot_ros) StdoutLine: {'line': b'writing jetbot_ros.egg-info/PKG-INFO\n'}
+[7.048070] (jetbot_ros) StdoutLine: {'line': b'writing dependency_links to jetbot_ros.egg-info/dependency_links.txt\n'}
+[7.049266] (jetbot_ros) StdoutLine: {'line': b'writing entry points to jetbot_ros.egg-info/entry_points.txt\n'}
+[7.049962] (jetbot_ros) StdoutLine: {'line': b'writing requirements to jetbot_ros.egg-info/requires.txt\n'}
+[7.050694] (jetbot_ros) StdoutLine: {'line': b'writing top-level names to jetbot_ros.egg-info/top_level.txt\n'}
+[7.059263] (-) TimerEvent: {}
+[7.061992] (jetbot_ros) StdoutLine: {'line': b"reading manifest file 'jetbot_ros.egg-info/SOURCES.txt'\n"}
+[7.073082] (jetbot_ros) StdoutLine: {'line': b"writing manifest file 'jetbot_ros.egg-info/SOURCES.txt'\n"}
+[7.159481] (-) TimerEvent: {}
+[7.260235] (-) TimerEvent: {}
+[7.275171] (jetbot_ros) StdoutLine: {'line': b'running build_ext\n'}
+[7.276131] (jetbot_ros) StdoutLine: {'line': b'Creating /home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages/jetbot-ros.egg-link (link to .)\n'}
+[7.281700] (jetbot_ros) StdoutLine: {'line': b'Installing data_collection script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.282520] (jetbot_ros) StdoutLine: {'line': b'Installing gazebo_spawn script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.283311] (jetbot_ros) StdoutLine: {'line': b'Installing motors_nvidia script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.283933] (jetbot_ros) StdoutLine: {'line': b'Installing motors_sparkfun script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.284548] (jetbot_ros) StdoutLine: {'line': b'Installing motors_waveshare script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.285344] (jetbot_ros) StdoutLine: {'line': b'Installing nav_model script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.285813] (jetbot_ros) StdoutLine: {'line': b'Installing oled_ssd1306 script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.286445] (jetbot_ros) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[7.286885] (jetbot_ros) StdoutLine: {'line': b'\n'}
+[7.287305] (jetbot_ros) StdoutLine: {'line': b'Installed /home/jetbot/ece417/ws/build/jetbot_ros\n'}
+[7.287721] (jetbot_ros) StdoutLine: {'line': b'running install_data\n'}
+[7.360415] (-) TimerEvent: {}
+[7.430587] (jetbot_ros) CommandEnded: {'returncode': 0}
+[7.465858] (-) TimerEvent: {}
+[7.576852] (-) TimerEvent: {}
+[7.679428] (jetbot_ros) JobEnded: {'identifier': 'jetbot_ros', 'rc': 0}
+[7.683334] (-) TimerEvent: {}
+[7.683760] (-) EventReactorShutdown: {}

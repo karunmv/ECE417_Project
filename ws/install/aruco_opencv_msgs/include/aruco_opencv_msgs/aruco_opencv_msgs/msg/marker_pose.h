@@ -1,0 +1,1 @@
+/home/jetbot/ece417/ws/build/aruco_opencv_msgs/rosidl_generator_c/aruco_opencv_msgs/msg/marker_pose.h

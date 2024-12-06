@@ -1,0 +1,3 @@
+/home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/export_gscamExport.cmake
+/home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake
+/home/jetbot/ece417/ws/install/gscam/lib/libgscam.so

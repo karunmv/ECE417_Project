@@ -1,0 +1,1 @@
+/home/jetbot/ece417/ws/build/aruco_opencv_msgs/ament_cmake_core/aruco_opencv_msgsConfig-version.cmake

@@ -1,0 +1,90 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/install/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/install/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.4 (/opt/ros/humble/install/share/rclcpp_components/cmake)
+-- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/install/share/rclcpp_lifecycle/cmake)
+-- Found aruco_opencv_msgs: 2.3.1 (/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/install/share/cv_bridge/cmake)
+-- Found CUDA: /usr/local/cuda (found suitable exact version "10.2") 
+-- Found tf2_ros: 0.25.2 (/opt/ros/humble/install/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/install/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.4") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found image_transport: 3.1.5 (/opt/ros/humble/install/share/image_transport/cmake)
+-- Found OpenCV: /usr (found suitable version "4.5.0", minimum required is "4.5.0") found components: aruco 
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (14.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/jetbot/ece417/ws/build/aruco_opencv
+[ 14%] [32mBuilding CXX object CMakeFiles/aruco_tracker.dir/rclcpp_components/node_main_aruco_tracker.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/aruco_opencv.dir/src/aruco_tracker.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/aruco_opencv.dir/src/utils.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable aruco_tracker_autostart[0m
+[ 85%] [32m[1mLinking CXX executable aruco_tracker[0m
+[ 85%] Built target aruco_tracker_autostart
+[ 85%] Built target aruco_tracker
+[100%] [32m[1mLinking CXX shared library libaruco_opencv.so[0m
+[100%] Built target aruco_opencv
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/aruco_tracker
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/aruco_tracker_autostart
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/lib/libaruco_opencv.so
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/config/aruco_tracker.yaml
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/config/board_descriptions.yaml
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/launch/aruco_tracker.launch.xml
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/create_board
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/create_marker
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/package_run_dependencies/aruco_opencv
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/parent_prefix_path/aruco_opencv
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/ament_prefix_path.sh
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/path.sh
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/path.dsv
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.bash
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.sh
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.zsh
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.dsv
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.dsv
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/packages/aruco_opencv
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/rclcpp_components/aruco_opencv
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/cmake/aruco_opencvConfig.cmake
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/cmake/aruco_opencvConfig-version.cmake
+-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.xml

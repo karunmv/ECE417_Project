@@ -1,0 +1,424 @@
+[2.862s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.863s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f98da0780>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f98da0780>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f98c83128>)
+[3.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.056s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetbot/ece417/ws'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['ignore', 'ignore_ament_install']
+[3.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'ignore'
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'ignore_ament_install'
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['colcon_pkg']
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'colcon_pkg'
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['colcon_meta']
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'colcon_meta'
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['ros']
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'ros'
+[3.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gscam' with type 'ros.ament_cmake' and name 'gscam'
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_ros) by extension 'ignore'
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_ros) by extension 'ignore_ament_install'
+[3.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_ros) by extensions ['colcon_pkg']
+[3.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_ros) by extension 'colcon_pkg'
+[3.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_ros) by extensions ['colcon_meta']
+[3.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_ros) by extension 'colcon_meta'
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_ros) by extensions ['ros']
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_ros) by extension 'ros'
+[3.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jetbot_ros' with type 'ros.ament_python' and name 'jetbot_ros'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[3.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[3.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[3.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[3.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['ignore', 'ignore_ament_install']
+[3.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ignore'
+[3.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ignore_ament_install'
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['colcon_pkg']
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'colcon_pkg'
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['colcon_meta']
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'colcon_meta'
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['ros']
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ros'
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['cmake', 'python']
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'cmake'
+[3.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'python'
+[3.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['python_setup_py']
+[3.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'python_setup_py'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['ignore', 'ignore_ament_install']
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'ignore'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'ignore_ament_install'
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['colcon_pkg']
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'colcon_pkg'
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['colcon_meta']
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'colcon_meta'
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['ros']
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'ros'
+[3.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_aruco_opencv/aruco_opencv' with type 'ros.ament_cmake' and name 'aruco_opencv'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ignore'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ignore_ament_install'
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['colcon_pkg']
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'colcon_pkg'
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['colcon_meta']
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'colcon_meta'
+[3.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['ros']
+[3.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ros'
+[3.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_aruco_opencv/aruco_opencv_msgs' with type 'ros.ament_cmake' and name 'aruco_opencv_msgs'
+[3.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.511s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_args' from command line to 'None'
+[3.511s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_target' from command line to 'None'
+[3.512s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.512s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.512s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.512s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.512s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.513s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_opencv_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetbot/ece417/ws/build/aruco_opencv_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetbot/ece417/ws/install/aruco_opencv_msgs', 'merge_install': False, 'path': '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv_msgs', 'symlink_install': True, 'test_result_base': None}
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_args' from command line to 'None'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_target' from command line to 'None'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_clean_cache' from command line to 'False'
+[3.536s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_clean_first' from command line to 'False'
+[3.536s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_force_configure' from command line to 'False'
+[3.536s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'ament_cmake_args' from command line to 'None'
+[3.536s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'catkin_cmake_args' from command line to 'None'
+[3.536s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.537s] DEBUG:colcon.colcon_core.verb:Building package 'gscam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetbot/ece417/ws/build/gscam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetbot/ece417/ws/install/gscam', 'merge_install': False, 'path': '/home/jetbot/ece417/ws/src/gscam', 'symlink_install': True, 'test_result_base': None}
+[3.559s] Level 5:colcon.colcon_core.verb:set package 'jetbot_ros' build argument 'cmake_args' from command line to 'None'
+[3.559s] Level 5:colcon.colcon_core.verb:set package 'jetbot_ros' build argument 'cmake_target' from command line to 'None'
+[3.559s] Level 5:colcon.colcon_core.verb:set package 'jetbot_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.559s] Level 5:colcon.colcon_core.verb:set package 'jetbot_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[3.559s] Level 5:colcon.colcon_core.verb:set package 'jetbot_ros' build argument 'cmake_clean_first' from command line to 'False'
+[3.560s] Level 5:colcon.colcon_core.verb:set package 'jetbot_ros' build argument 'cmake_force_configure' from command line to 'False'
+[3.560s] Level 5:colcon.colcon_core.verb:set package 'jetbot_ros' build argument 'ament_cmake_args' from command line to 'None'
+[3.560s] Level 5:colcon.colcon_core.verb:set package 'jetbot_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[3.560s] Level 5:colcon.colcon_core.verb:set package 'jetbot_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.560s] DEBUG:colcon.colcon_core.verb:Building package 'jetbot_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetbot/ece417/ws/build/jetbot_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetbot/ece417/ws/install/jetbot_ros', 'merge_install': False, 'path': '/home/jetbot/ece417/ws/src/jetbot_ros', 'symlink_install': True, 'test_result_base': None}
+[3.583s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[3.583s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[3.583s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.583s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[3.584s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[3.584s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[3.584s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[3.584s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[3.584s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.585s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetbot/ece417/ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetbot/ece417/ws/install/py_pubsub', 'merge_install': False, 'path': '/home/jetbot/ece417/ws/src/py_pubsub', 'symlink_install': True, 'test_result_base': None}
+[3.608s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_args' from command line to 'None'
+[3.608s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_target' from command line to 'None'
+[3.608s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.608s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[3.609s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[3.609s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[3.609s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[3.609s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[3.609s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.610s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetbot/ece417/ws/build/aruco_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetbot/ece417/ws/install/aruco_opencv', 'merge_install': False, 'path': '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv', 'symlink_install': True, 'test_result_base': None}
+[3.627s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.710s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv_msgs' with build type 'ament_cmake'
+[3.711s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv_msgs'
+[3.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.777s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.881s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetbot/ece417/ws/src/gscam' with build type 'ament_cmake'
+[3.882s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetbot/ece417/ws/src/gscam'
+[3.923s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.924s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.020s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetbot/ece417/ws/src/jetbot_ros' with build type 'ament_python'
+[4.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetbot_ros', 'ament_prefix_path')
+[4.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/hook/ament_prefix_path.ps1'
+[4.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/hook/ament_prefix_path.dsv'
+[4.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/hook/ament_prefix_path.sh'
+[4.107s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.207s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetbot/ece417/ws/src/py_pubsub' with build type 'ament_python'
+[4.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[4.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[4.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[4.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[4.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake /home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetbot/ece417/ws/install/aruco_opencv_msgs
+[4.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/ece417/ws/build/gscam': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/gscam -- -j4 -l4
+[6.296s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetbot/ece417/ws/src/jetbot_ros'
+[6.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.280s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetbot/ece417/ws/src/py_pubsub'
+[8.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/ece417/ws/build/gscam' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/gscam -- -j4 -l4
+[8.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/ece417/ws/build/gscam': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/gscam
+[9.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gscam)
+[9.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/ece417/ws/build/gscam' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/gscam
+[9.395s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam' for CMake module files
+[9.399s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam' for CMake config files
+[9.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'cmake_prefix_path')
+[9.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/cmake_prefix_path.ps1'
+[9.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/cmake_prefix_path.dsv'
+[9.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/cmake_prefix_path.sh'
+[9.455s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam/lib'
+[9.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'ld_library_path_lib')
+[9.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/ld_library_path_lib.ps1'
+[9.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/ld_library_path_lib.dsv'
+[9.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/ld_library_path_lib.sh'
+[9.504s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam/bin'
+[9.504s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam/lib/pkgconfig/gscam.pc'
+[9.505s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam/lib/python3.6/site-packages'
+[9.506s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam/bin'
+[9.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/gscam/share/gscam/package.ps1'
+[9.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetbot/ece417/ws/install/gscam/share/gscam/package.dsv'
+[9.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/gscam/share/gscam/package.sh'
+[9.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/gscam/share/gscam/package.bash'
+[9.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/gscam/share/gscam/package.zsh'
+[9.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetbot/ece417/ws/install/gscam/share/colcon-core/packages/gscam)
+[9.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gscam)
+[10.026s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam' for CMake module files
+[10.030s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam' for CMake config files
+[10.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'cmake_prefix_path')
+[10.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/cmake_prefix_path.ps1'
+[10.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/cmake_prefix_path.dsv'
+[10.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/cmake_prefix_path.sh'
+[10.086s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam/lib'
+[10.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'ld_library_path_lib')
+[10.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/ld_library_path_lib.ps1'
+[10.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/ld_library_path_lib.dsv'
+[10.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/gscam/share/gscam/hook/ld_library_path_lib.sh'
+[10.136s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam/bin'
+[10.136s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam/lib/pkgconfig/gscam.pc'
+[10.138s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam/lib/python3.6/site-packages'
+[10.138s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/gscam/bin'
+[10.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/gscam/share/gscam/package.ps1'
+[10.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetbot/ece417/ws/install/gscam/share/gscam/package.dsv'
+[10.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/gscam/share/gscam/package.sh'
+[10.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/gscam/share/gscam/package.bash'
+[10.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/gscam/share/gscam/package.zsh'
+[10.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetbot/ece417/ws/install/gscam/share/colcon-core/packages/gscam)
+[11.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/ece417/ws/build/jetbot_ros': PYTHONPATH=/home/jetbot/ece417/ws/build/jetbot_ros/prefix_override:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetbot/ece417/ws/build/jetbot_ros/build --no-deps install_data
+[11.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/ece417/ws/build/py_pubsub': PYTHONPATH=/home/jetbot/ece417/ws/build/py_pubsub/prefix_override:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetbot/ece417/ws/build/py_pubsub/build --no-deps install_data
+[14.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath_develop')
+[14.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/ece417/ws/build/py_pubsub' returned '0': PYTHONPATH=/home/jetbot/ece417/ws/build/py_pubsub/prefix_override:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetbot/ece417/ws/build/py_pubsub/build --no-deps install_data
+[14.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.ps1'
+[14.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.dsv'
+[14.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.sh'
+[14.648s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/py_pubsub' for CMake module files
+[14.651s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/py_pubsub' for CMake config files
+[14.655s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/py_pubsub/lib'
+[14.656s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/py_pubsub/bin'
+[14.656s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[14.658s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages'
+[14.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[14.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[14.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[14.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[14.709s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/py_pubsub/bin'
+[14.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[14.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[14.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[14.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/package.sh'
+[14.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/package.bash'
+[14.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[14.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetbot/ece417/ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[14.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetbot_ros', 'pythonpath_develop')
+[14.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/build/jetbot_ros/share/jetbot_ros/hook/pythonpath_develop.ps1'
+[14.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/ece417/ws/build/jetbot_ros' returned '0': PYTHONPATH=/home/jetbot/ece417/ws/build/jetbot_ros/prefix_override:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetbot/ece417/ws/build/jetbot_ros/build --no-deps install_data
+[14.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/build/jetbot_ros/share/jetbot_ros/hook/pythonpath_develop.dsv'
+[14.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/build/jetbot_ros/share/jetbot_ros/hook/pythonpath_develop.sh'
+[14.888s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/jetbot_ros' for CMake module files
+[14.892s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/jetbot_ros' for CMake config files
+[14.897s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/jetbot_ros/lib'
+[14.897s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/jetbot_ros/bin'
+[14.898s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/jetbot_ros/lib/pkgconfig/jetbot_ros.pc'
+[14.899s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages'
+[14.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetbot_ros', 'pythonpath')
+[14.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/hook/pythonpath.ps1'
+[14.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/hook/pythonpath.dsv'
+[14.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/hook/pythonpath.sh'
+[14.950s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/jetbot_ros/bin'
+[14.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetbot_ros)
+[14.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/package.ps1'
+[14.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/package.dsv'
+[14.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/package.sh'
+[14.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/package.bash'
+[15.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/jetbot_ros/share/jetbot_ros/package.zsh'
+[15.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetbot/ece417/ws/install/jetbot_ros/share/colcon-core/packages/jetbot_ros)
+[18.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake /home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetbot/ece417/ws/install/aruco_opencv_msgs
+[18.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/aruco_opencv_msgs -- -j4 -l4
+[35.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/aruco_opencv_msgs -- -j4 -l4
+[35.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/aruco_opencv_msgs
+[36.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv_msgs)
+[36.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/aruco_opencv_msgs
+[36.901s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs' for CMake module files
+[36.906s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs' for CMake config files
+[36.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'cmake_prefix_path')
+[36.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.ps1'
+[36.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.dsv'
+[36.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.sh'
+[36.953s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib'
+[36.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'ld_library_path_lib')
+[36.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.ps1'
+[36.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.dsv'
+[36.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.sh'
+[36.998s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/bin'
+[36.999s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/pkgconfig/aruco_opencv_msgs.pc'
+[37.000s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages'
+[37.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'pythonpath')
+[37.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.ps1'
+[37.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.dsv'
+[37.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.sh'
+[37.041s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/bin'
+[37.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.ps1'
+[37.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv'
+[37.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.sh'
+[37.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.bash'
+[37.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.zsh'
+[37.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/colcon-core/packages/aruco_opencv_msgs)
+[37.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv_msgs)
+[37.704s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs' for CMake module files
+[37.711s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs' for CMake config files
+[37.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'cmake_prefix_path')
+[37.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.ps1'
+[37.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.dsv'
+[37.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.sh'
+[37.761s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib'
+[37.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'ld_library_path_lib')
+[37.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.ps1'
+[37.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.dsv'
+[37.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.sh'
+[37.805s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/bin'
+[37.805s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/pkgconfig/aruco_opencv_msgs.pc'
+[37.806s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages'
+[37.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'pythonpath')
+[37.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.ps1'
+[37.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.dsv'
+[37.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.sh'
+[37.850s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/bin'
+[37.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.ps1'
+[37.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv'
+[37.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.sh'
+[37.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.bash'
+[37.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.zsh'
+[37.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/colcon-core/packages/aruco_opencv_msgs)
+[37.903s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv' with build type 'ament_cmake'
+[37.903s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv'
+[37.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[37.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetbot/ece417/ws/install/aruco_opencv
+[52.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetbot/ece417/ws/install/aruco_opencv
+[52.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/aruco_opencv -- -j4 -l4
+[132.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/aruco_opencv -- -j4 -l4
+[132.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/aruco_opencv
+[132.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv)
+[132.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/aruco_opencv
+[132.845s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv' for CMake module files
+[132.849s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv' for CMake config files
+[132.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'cmake_prefix_path')
+[132.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.ps1'
+[132.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.dsv'
+[132.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.sh'
+[132.897s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv/lib'
+[132.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'ld_library_path_lib')
+[132.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.ps1'
+[132.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.dsv'
+[132.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.sh'
+[132.940s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv/bin'
+[132.940s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv/lib/pkgconfig/aruco_opencv.pc'
+[132.943s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv/lib/python3.6/site-packages'
+[132.944s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv/bin'
+[132.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.ps1'
+[132.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.dsv'
+[132.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.sh'
+[132.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.bash'
+[132.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.zsh'
+[132.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetbot/ece417/ws/install/aruco_opencv/share/colcon-core/packages/aruco_opencv)
+[133.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv)
+[133.360s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv' for CMake module files
+[133.364s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv' for CMake config files
+[133.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'cmake_prefix_path')
+[133.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.ps1'
+[133.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.dsv'
+[133.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.sh'
+[133.410s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv/lib'
+[133.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'ld_library_path_lib')
+[133.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.ps1'
+[133.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.dsv'
+[133.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.sh'
+[133.455s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv/bin'
+[133.455s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv/lib/pkgconfig/aruco_opencv.pc'
+[133.456s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv/lib/python3.6/site-packages'
+[133.457s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/ece417/ws/install/aruco_opencv/bin'
+[133.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.ps1'
+[133.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.dsv'
+[133.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.sh'
+[133.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.bash'
+[133.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.zsh'
+[133.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetbot/ece417/ws/install/aruco_opencv/share/colcon-core/packages/aruco_opencv)
+[133.508s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[133.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[133.514s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[133.514s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[133.572s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[133.573s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[133.574s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[133.574s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[133.574s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[133.575s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[133.617s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetbot/ece417/ws/install/local_setup.ps1'
+[133.624s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetbot/ece417/ws/install/_local_setup_util_ps1.py'
+[133.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetbot/ece417/ws/install/setup.ps1'
+[133.649s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetbot/ece417/ws/install/local_setup.sh'
+[133.652s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetbot/ece417/ws/install/_local_setup_util_sh.py'
+[133.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetbot/ece417/ws/install/setup.sh'
+[133.671s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetbot/ece417/ws/install/local_setup.bash'
+[133.674s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetbot/ece417/ws/install/setup.bash'
+[133.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetbot/ece417/ws/install/local_setup.zsh'
+[133.693s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetbot/ece417/ws/install/setup.zsh'

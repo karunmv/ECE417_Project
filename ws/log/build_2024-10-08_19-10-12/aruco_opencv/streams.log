@@ -1,0 +1,96 @@
+[0.118s] Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetbot/ece417/ws/install/aruco_opencv
+[0.460s] -- The C compiler identification is GNU 7.5.0
+[0.661s] -- The CXX compiler identification is GNU 7.5.0
+[0.696s] -- Detecting C compiler ABI info
+[0.888s] -- Detecting C compiler ABI info - done
+[0.937s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.938s] -- Detecting C compile features
+[0.939s] -- Detecting C compile features - done
+[0.953s] -- Detecting CXX compiler ABI info
+[1.173s] -- Detecting CXX compiler ABI info - done
+[1.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.224s] -- Detecting CXX compile features
+[1.226s] -- Detecting CXX compile features - done
+[1.242s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[6.527s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[6.984s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.156s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/install/share/rclcpp/cmake)
+[7.425s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[7.459s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[7.513s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[7.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.734s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.178s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[8.195s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[8.406s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.459s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.673s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.674s] -- Looking for pthread_create in pthreads
+[8.849s] -- Looking for pthread_create in pthreads - not found
+[8.849s] -- Looking for pthread_create in pthread
+[9.043s] -- Looking for pthread_create in pthread - found
+[9.047s] -- Found Threads: TRUE  
+[10.013s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/install/share/rclcpp_components/cmake)
+[10.402s] -- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/install/share/rclcpp_lifecycle/cmake)
+[10.678s] -- Found aruco_opencv_msgs: 2.3.1 (/home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake)
+[11.396s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/install/share/cv_bridge/cmake)
+[11.515s] -- Found CUDA: /usr/local/cuda (found suitable exact version "10.2") 
+[12.141s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/install/share/tf2_ros/cmake)
+[13.820s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/install/share/tf2_geometry_msgs/cmake)
+[13.905s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)
+[13.913s] -- Found Eigen3: TRUE (found version "3.3.4") 
+[13.914s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.976s] -- Found image_transport: 3.1.5 (/opt/ros/humble/install/share/image_transport/cmake)
+[14.148s] -- Found OpenCV: /usr (found suitable version "4.5.0", minimum required is "4.5.0") found components: aruco 
+[14.203s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[14.774s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.781s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.782s] -- Configured cpplint exclude dirs and/or files: 
+[14.785s] -- Added test 'lint_cmake' to check CMake code style
+[14.793s] -- Added test 'uncrustify' to check C / C++ code style
+[14.793s] -- Configured uncrustify additional arguments: 
+[14.798s] -- Added test 'xmllint' to check XML markup files
+[14.804s] -- Configuring done (14.5s)
+[14.926s] -- Generating done (0.1s)
+[14.937s] -- Build files have been written to: /home/jetbot/ece417/ws/build/aruco_opencv
+[15.006s] Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetbot/ece417/ws/install/aruco_opencv
+[15.015s] Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/aruco_opencv -- -j4 -l4
+[15.270s] [ 14%] [32mBuilding CXX object CMakeFiles/aruco_tracker.dir/rclcpp_components/node_main_aruco_tracker.cpp.o[0m
+[15.272s] [ 28%] [32mBuilding CXX object CMakeFiles/aruco_opencv.dir/src/aruco_tracker.cpp.o[0m
+[15.273s] [ 42%] [32mBuilding CXX object CMakeFiles/aruco_opencv.dir/src/utils.cpp.o[0m
+[15.279s] [ 57%] [32mBuilding CXX object CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.o[0m
+[35.606s] [ 71%] [32m[1mLinking CXX executable aruco_tracker_autostart[0m
+[35.759s] [ 85%] [32m[1mLinking CXX executable aruco_tracker[0m
+[36.386s] [ 85%] Built target aruco_tracker_autostart
+[36.524s] [ 85%] Built target aruco_tracker
+[89.661s] [100%] [32m[1mLinking CXX shared library libaruco_opencv.so[0m
+[94.081s] [100%] Built target aruco_opencv
+[94.119s] Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/aruco_opencv -- -j4 -l4
+[94.397s] Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/aruco_opencv
+[94.566s] -- Install configuration: ""
+[94.568s] -- Execute custom install script
+[94.569s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/aruco_tracker
+[94.578s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/aruco_tracker_autostart
+[94.587s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/lib/libaruco_opencv.so
+[94.597s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/config/aruco_tracker.yaml
+[94.606s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/config/board_descriptions.yaml
+[94.618s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/launch/aruco_tracker.launch.xml
+[94.628s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/create_board
+[94.636s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/create_marker
+[94.645s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/package_run_dependencies/aruco_opencv
+[94.654s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/parent_prefix_path/aruco_opencv
+[94.663s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/ament_prefix_path.sh
+[94.671s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/ament_prefix_path.dsv
+[94.680s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/path.sh
+[94.688s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/path.dsv
+[94.697s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.bash
+[94.706s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.sh
+[94.715s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.zsh
+[94.724s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.dsv
+[94.733s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.dsv
+[94.742s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/packages/aruco_opencv
+[94.750s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/rclcpp_components/aruco_opencv
+[94.759s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/cmake/aruco_opencvConfig.cmake
+[94.768s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/cmake/aruco_opencvConfig-version.cmake
+[94.777s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.xml
+[94.826s] Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install LD_LIBRARY_PATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/aruco_opencv
