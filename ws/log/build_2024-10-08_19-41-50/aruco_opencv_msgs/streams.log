@@ -1,0 +1,150 @@
+[0.684s] Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/aruco_opencv_msgs -- -j4 -l4
+[4.557s] [  2%] Built target aruco_opencv_msgs__cpp
+[4.558s] [  2%] Built target ament_cmake_python_symlink_aruco_opencv_msgs
+[4.561s] [ 12%] Built target aruco_opencv_msgs__rosidl_generator_c
+[4.561s] [ 23%] Built target aruco_opencv_msgs__rosidl_typesupport_cpp
+[4.562s] [ 34%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp
+[4.563s] [ 44%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_cpp
+[4.565s] [ 55%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c
+[4.566s] [ 65%] Built target aruco_opencv_msgs__rosidl_typesupport_c
+[4.568s] [ 76%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c
+[4.570s] [ 76%] Built target aruco_opencv_msgs
+[4.574s] [ 78%] Built target aruco_opencv_msgs__py
+[4.575s] [ 87%] Built target aruco_opencv_msgs__rosidl_generator_py
+[4.576s] [ 91%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c__pyext
+[4.577s] [ 95%] Built target aruco_opencv_msgs__rosidl_typesupport_c__pyext
+[4.579s] [100%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.581s] running egg_info
+[4.586s] writing aruco_opencv_msgs.egg-info/PKG-INFO
+[4.587s] writing dependency_links to aruco_opencv_msgs.egg-info/dependency_links.txt
+[4.588s] writing top-level names to aruco_opencv_msgs.egg-info/top_level.txt
+[4.588s] reading manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'
+[4.590s] writing manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'
+[4.594s] [100%] Built target ament_cmake_python_build_aruco_opencv_msgs_egg
+[4.607s] Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/aruco_opencv_msgs -- -j4 -l4
+[5.177s] Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/aruco_opencv_msgs
+[5.440s] -- Install configuration: ""
+[5.441s] -- Execute custom install script
+[5.441s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_opencv_msgs
+[5.442s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/aruco_detection.h
+[5.456s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/board_pose.h
+[5.456s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__functions.h
+[5.457s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__struct.h
+[5.458s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.h
+[5.458s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__functions.h
+[5.459s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__struct.h
+[5.459s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.h
+[5.460s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__functions.h
+[5.471s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__struct.h
+[5.472s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.h
+[5.473s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/marker_pose.h
+[5.473s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.474s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.sh
+[5.486s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.dsv
+[5.486s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_c.h
+[5.487s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_c.h
+[5.488s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_c.h
+[5.488s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.489s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_c.h
+[5.492s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_c.h
+[5.493s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_c.h
+[5.493s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.494s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/aruco_detection.hpp
+[5.496s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/board_pose.hpp
+[5.497s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__builder.hpp
+[5.499s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__struct.hpp
+[5.501s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__traits.hpp
+[5.514s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__builder.hpp
+[5.514s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__struct.hpp
+[5.515s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__traits.hpp
+[5.515s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__builder.hpp
+[5.516s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__struct.hpp
+[5.517s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__traits.hpp
+[5.518s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/marker_pose.hpp
+[5.519s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[5.519s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[5.520s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[5.523s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.524s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_cpp.hpp
+[5.524s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_cpp.hpp
+[5.525s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[5.526s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.sh
+[5.526s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.dsv
+[5.527s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs-2.3.1-py3.6.egg-info/PKG-INFO
+[5.536s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs-2.3.1-py3.6.egg-info/SOURCES.txt
+[5.536s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs-2.3.1-py3.6.egg-info/dependency_links.txt
+[5.537s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs-2.3.1-py3.6.egg-info/top_level.txt
+[5.537s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/__init__.py
+[5.538s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_c.c
+[5.538s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.539s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.539s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[5.540s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[5.541s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[5.541s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/libaruco_opencv_msgs__rosidl_generator_py.so
+[5.542s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/__init__.py
+[5.542s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_aruco_detection.py
+[5.547s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_aruco_detection_s.c
+[5.548s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_board_pose.py
+[5.549s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_board_pose_s.c
+[5.549s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_marker_pose.py
+[5.550s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_marker_pose_s.c
+[5.550s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[5.557s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[5.558s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[5.559s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.idl
+[5.559s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.idl
+[5.560s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.idl
+[5.560s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.msg
+[5.561s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.msg
+[5.561s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.msg
+[5.562s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_opencv_msgs
+[5.562s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_opencv_msgs
+[5.563s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.sh
+[5.564s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.dsv
+[5.564s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.sh
+[5.565s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.dsv
+[5.565s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.bash
+[5.566s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.sh
+[5.566s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.zsh
+[5.567s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.dsv
+[5.568s] -- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv
+[5.575s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/ament_index/resource_index/packages/aruco_opencv_msgs
+[5.577s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake-extras.cmake
+[5.577s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.582s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.582s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.583s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.583s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.584s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.591s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig.cmake
+[5.594s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig-version.cmake
+[5.595s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.xml
+[5.596s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_c.so
+[5.597s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so
+[5.598s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so
+[5.599s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_c.so
+[5.600s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.600s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so
+[5.601s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_cpp.so
+[5.767s] Listing '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs'...
+[5.767s] Listing '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg'...
+[5.790s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_py.so
+[5.790s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cExport.cmake
+[5.791s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.792s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.792s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.793s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.793s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.794s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport.cmake
+[5.795s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.795s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cppExport.cmake
+[5.796s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.796s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.797s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.800s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.802s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport.cmake
+[5.804s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.805s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_pyExport.cmake
+[5.806s] -- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.828s] Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/aruco_opencv_msgs

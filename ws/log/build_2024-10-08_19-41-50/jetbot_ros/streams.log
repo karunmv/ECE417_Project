@@ -1,0 +1,30 @@
+[7.056s] Invoking command in '/home/jetbot/ece417/ws/build/jetbot_ros': PYTHONPATH=/home/jetbot/ece417/ws/build/jetbot_ros/prefix_override:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetbot/ece417/ws/build/jetbot_ros/build --no-deps install_data
+[8.647s] /usr/local/lib/python3.6/dist-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.649s]   % (opt, underscore_opt)
+[8.892s] running develop
+[8.894s] /usr/local/lib/python3.6/dist-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.895s]   EasyInstallDeprecationWarning,
+[8.900s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.901s]   setuptools.SetuptoolsDeprecationWarning,
+[9.863s] running egg_info
+[9.864s] writing jetbot_ros.egg-info/PKG-INFO
+[9.866s] writing dependency_links to jetbot_ros.egg-info/dependency_links.txt
+[9.867s] writing entry points to jetbot_ros.egg-info/entry_points.txt
+[9.867s] writing requirements to jetbot_ros.egg-info/requires.txt
+[9.868s] writing top-level names to jetbot_ros.egg-info/top_level.txt
+[9.878s] reading manifest file 'jetbot_ros.egg-info/SOURCES.txt'
+[9.889s] writing manifest file 'jetbot_ros.egg-info/SOURCES.txt'
+[10.106s] running build_ext
+[10.108s] Creating /home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages/jetbot-ros.egg-link (link to .)
+[10.111s] Installing data_collection script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros
+[10.112s] Installing gazebo_spawn script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros
+[10.112s] Installing motors_nvidia script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros
+[10.113s] Installing motors_sparkfun script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros
+[10.114s] Installing motors_waveshare script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros
+[10.116s] Installing nav_model script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros
+[10.116s] Installing oled_ssd1306 script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros
+[10.117s] Installing teleop_keyboard script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros
+[10.118s] 
+[10.118s] Installed /home/jetbot/ece417/ws/build/jetbot_ros
+[10.119s] running install_data
+[10.519s] Invoked command in '/home/jetbot/ece417/ws/build/jetbot_ros' returned '0': PYTHONPATH=/home/jetbot/ece417/ws/build/jetbot_ros/prefix_override:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetbot/ece417/ws/build/jetbot_ros/build --no-deps install_data

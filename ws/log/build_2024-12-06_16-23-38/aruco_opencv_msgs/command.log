@@ -1,0 +1,4 @@
+Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs': /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/aruco_opencv_msgs -- -j4 -l4
+Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs' returned '0': /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/aruco_opencv_msgs -- -j4 -l4
+Invoking command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs': /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/aruco_opencv_msgs
+Invoked command in '/home/jetbot/ece417/ws/build/aruco_opencv_msgs' returned '0': /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/aruco_opencv_msgs

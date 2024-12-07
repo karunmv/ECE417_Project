@@ -1,0 +1,47 @@
+[0.541s] Invoking command in '/home/jetbot/ece417/ws/build/gscam': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/gscam -- -j4 -l4
+[4.427s] [ 20%] Built target gtest
+[4.428s] [ 40%] Built target gtest_main
+[4.429s] [ 60%] Built target gscam_node
+[4.431s] [ 80%] Built target gscam
+[4.436s] [100%] Built target smoke_test
+[4.440s] Invoked command in '/home/jetbot/ece417/ws/build/gscam' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/gscam -- -j4 -l4
+[4.957s] Invoking command in '/home/jetbot/ece417/ws/build/gscam': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/gscam
+[5.171s] -- Install configuration: ""
+[5.173s] -- Execute custom install script
+[5.174s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/lib/gscam/gscam_node
+[5.175s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/library_path.sh
+[5.176s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/library_path.dsv
+[5.177s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/package_run_dependencies/gscam
+[5.178s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/parent_prefix_path/gscam
+[5.179s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/ament_prefix_path.sh
+[5.180s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/ament_prefix_path.dsv
+[5.181s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/path.sh
+[5.181s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/path.dsv
+[5.182s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.bash
+[5.183s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.sh
+[5.184s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.zsh
+[5.185s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.dsv
+[5.185s] -- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/package.dsv
+[5.196s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/packages/gscam
+[5.197s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/rclcpp_components/gscam
+[5.198s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.199s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.199s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_targets-extras.cmake
+[5.200s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_libraries-extras.cmake
+[5.201s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/gscamConfig.cmake
+[5.202s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/gscamConfig-version.cmake
+[5.202s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/package.xml
+[5.205s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/component_pipeline_launch.py
+[5.206s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/csi_cam_640x360.ini
+[5.206s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/decklink.launch.xml
+[5.207s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/minoru.launch.xml
+[5.220s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/nvcsi.launch.xml
+[5.222s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/osx.launch.xml
+[5.223s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/uncalibrated_parameters.ini
+[5.223s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/v4l.launch.xml
+[5.224s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/v4ljpeg.launch.xml
+[5.225s] -- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/videofile.launch.xml
+[5.225s] -- Up-to-date: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/export_gscamExport.cmake
+[5.226s] -- Up-to-date: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake
+[5.227s] -- Up-to-date: /home/jetbot/ece417/ws/install/gscam/lib/libgscam.so
+[5.253s] Invoked command in '/home/jetbot/ece417/ws/build/gscam' returned '0': CMAKE_PREFIX_PATH=/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/gscam

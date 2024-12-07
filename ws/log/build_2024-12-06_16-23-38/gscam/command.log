@@ -1,0 +1,4 @@
+Invoking command in '/home/jetbot/ece417/ws/build/gscam': /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/gscam -- -j4 -l4
+Invoked command in '/home/jetbot/ece417/ws/build/gscam' returned '0': /usr/local/bin/cmake --build /home/jetbot/ece417/ws/build/gscam -- -j4 -l4
+Invoking command in '/home/jetbot/ece417/ws/build/gscam': /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/gscam
+Invoked command in '/home/jetbot/ece417/ws/build/gscam' returned '0': /usr/local/bin/cmake --install /home/jetbot/ece417/ws/build/gscam

@@ -1,0 +1,23 @@
+[6.877s] Invoking command in '/home/jetbot/ece417/ws/build/py_pubsub': PYTHONPATH=/home/jetbot/ece417/ws/build/py_pubsub/prefix_override:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetbot/ece417/ws/build/py_pubsub/build --no-deps install_data
+[8.701s] running develop
+[8.702s] /usr/local/lib/python3.6/dist-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.702s]   EasyInstallDeprecationWarning,
+[8.708s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.708s]   setuptools.SetuptoolsDeprecationWarning,
+[9.689s] running egg_info
+[9.690s] writing py_pubsub.egg-info/PKG-INFO
+[9.691s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[9.692s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[9.693s] writing requirements to py_pubsub.egg-info/requires.txt
+[9.694s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[9.700s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[9.706s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[9.918s] running build_ext
+[9.918s] Creating /home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages/py-pubsub.egg-link (link to .)
+[9.923s] Installing listener script to /home/jetbot/ece417/ws/install/py_pubsub/lib/py_pubsub
+[9.924s] Installing move2aruco script to /home/jetbot/ece417/ws/install/py_pubsub/lib/py_pubsub
+[9.924s] Installing talker script to /home/jetbot/ece417/ws/install/py_pubsub/lib/py_pubsub
+[9.925s] 
+[9.926s] Installed /home/jetbot/ece417/ws/build/py_pubsub
+[9.926s] running install_data
+[10.084s] Invoked command in '/home/jetbot/ece417/ws/build/py_pubsub' returned '0': PYTHONPATH=/home/jetbot/ece417/ws/build/py_pubsub/prefix_override:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetbot/ece417/ws/build/py_pubsub/build --no-deps install_data

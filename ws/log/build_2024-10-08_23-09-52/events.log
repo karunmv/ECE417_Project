@@ -1,0 +1,1118 @@
+[0.000000] (-) TimerEvent: {}
+[0.010976] (aruco_opencv_msgs) JobQueued: {'identifier': 'aruco_opencv_msgs', 'dependencies': OrderedDict()}
+[0.011251] (gscam) JobQueued: {'identifier': 'gscam', 'dependencies': OrderedDict()}
+[0.011582] (jetbot_ros) JobQueued: {'identifier': 'jetbot_ros', 'dependencies': OrderedDict()}
+[0.011743] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.011894] (aruco_opencv) JobQueued: {'identifier': 'aruco_opencv', 'dependencies': OrderedDict([('aruco_opencv_msgs', '/home/jetbot/ece417/ws/install/aruco_opencv_msgs')])}
+[0.012057] (aruco_opencv_msgs) JobStarted: {'identifier': 'aruco_opencv_msgs'}
+[0.093336] (-) TimerEvent: {}
+[0.161914] (gscam) JobStarted: {'identifier': 'gscam'}
+[0.198675] (-) TimerEvent: {}
+[0.302302] (jetbot_ros) JobStarted: {'identifier': 'jetbot_ros'}
+[0.318235] (-) TimerEvent: {}
+[0.434103] (-) TimerEvent: {}
+[0.513171] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.539365] (-) TimerEvent: {}
+[0.649096] (-) TimerEvent: {}
+[0.699303] (aruco_opencv_msgs) JobProgress: {'identifier': 'aruco_opencv_msgs', 'progress': 'cmake'}
+[0.702024] (aruco_opencv_msgs) JobProgress: {'identifier': 'aruco_opencv_msgs', 'progress': 'build'}
+[0.705684] (aruco_opencv_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jetbot/ece417/ws/build/aruco_opencv_msgs', '--', '-j4', '-l4'], 'cwd': '/home/jetbot/ece417/ws/build/aruco_opencv_msgs', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano-4gb-jp45'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/home/jetbot/ece417/ws/install/gscam/lib:/home/jetbot/ece417/ws/install/aruco_opencv/lib:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('CYCLONEDDS_URI', 'file:///home/jetbot/ece417/cyclonedds.xml'), ('HOME', '/root'), ('OLDPWD', '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/jetbot/ece417/ws/build/aruco_opencv_msgs'), ('PYTHONPATH', '/home/jetbot/ece417/ws/build/py_pubsub:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[0.724084] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'cmake'}
+[0.727508] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'build'}
+[0.728877] (gscam) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jetbot/ece417/ws/build/gscam', '--', '-j4', '-l4'], 'cwd': '/home/jetbot/ece417/ws/build/gscam', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano-4gb-jp45'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/home/jetbot/ece417/ws/install/gscam/lib:/home/jetbot/ece417/ws/install/aruco_opencv/lib:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('CYCLONEDDS_URI', 'file:///home/jetbot/ece417/cyclonedds.xml'), ('HOME', '/root'), ('OLDPWD', '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/jetbot/ece417/ws/build/gscam'), ('PYTHONPATH', '/home/jetbot/ece417/ws/build/py_pubsub:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[0.749481] (-) TimerEvent: {}
+[0.850953] (-) TimerEvent: {}
+[0.953376] (-) TimerEvent: {}
+[1.055863] (-) TimerEvent: {}
+[1.157933] (-) TimerEvent: {}
+[1.258813] (-) TimerEvent: {}
+[1.359710] (-) TimerEvent: {}
+[1.460618] (-) TimerEvent: {}
+[1.561474] (-) TimerEvent: {}
+[1.662374] (-) TimerEvent: {}
+[1.763180] (-) TimerEvent: {}
+[1.865426] (-) TimerEvent: {}
+[1.966314] (-) TimerEvent: {}
+[2.067102] (-) TimerEvent: {}
+[2.167957] (-) TimerEvent: {}
+[2.268801] (-) TimerEvent: {}
+[2.369695] (-) TimerEvent: {}
+[2.470494] (-) TimerEvent: {}
+[2.571399] (-) TimerEvent: {}
+[2.677369] (-) TimerEvent: {}
+[2.724637] (aruco_opencv_msgs) StdoutLine: {'line': b'[  2%] Built target aruco_opencv_msgs__cpp\n'}
+[2.726436] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 12%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.729299] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_aruco_opencv_msgs\n'}
+[2.730711] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 23%] Built target aruco_opencv_msgs__rosidl_generator_c\n'}
+[2.735283] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 34%] Built target aruco_opencv_msgs__rosidl_typesupport_cpp\n'}
+[2.735964] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 44%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c\n'}
+[2.736562] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 55%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.737314] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 65%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.737952] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 76%] Built target aruco_opencv_msgs__rosidl_typesupport_c\n'}
+[2.738467] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 76%] Built target aruco_opencv_msgs\n'}
+[2.739019] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 78%] Built target aruco_opencv_msgs__py\n'}
+[2.739559] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 87%] Built target aruco_opencv_msgs__rosidl_generator_py\n'}
+[2.740085] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 93%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.740572] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 95%] Built target aruco_opencv_msgs__rosidl_typesupport_c__pyext\n'}
+[2.741080] (aruco_opencv_msgs) StdoutLine: {'line': b'[100%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.741614] (gscam) StdoutLine: {'line': b'[ 20%] Built target gtest\n'}
+[2.742244] (gscam) StdoutLine: {'line': b'[ 40%] Built target gscam_node\n'}
+[2.742786] (gscam) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[2.743317] (gscam) StdoutLine: {'line': b'[ 80%] Built target gscam\n'}
+[2.743842] (gscam) StdoutLine: {'line': b'[100%] Built target smoke_test\n'}
+[2.777672] (-) TimerEvent: {}
+[2.798476] (aruco_opencv_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.802150] (aruco_opencv_msgs) StdoutLine: {'line': b'writing aruco_opencv_msgs.egg-info/PKG-INFO\n'}
+[2.803077] (aruco_opencv_msgs) StdoutLine: {'line': b'writing dependency_links to aruco_opencv_msgs.egg-info/dependency_links.txt\n'}
+[2.803970] (aruco_opencv_msgs) StdoutLine: {'line': b'writing top-level names to aruco_opencv_msgs.egg-info/top_level.txt\n'}
+[2.815011] (aruco_opencv_msgs) StdoutLine: {'line': b"reading manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'\n"}
+[2.819812] (aruco_opencv_msgs) StdoutLine: {'line': b"writing manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'\n"}
+[2.877866] (-) TimerEvent: {}
+[2.933808] (aruco_opencv_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_aruco_opencv_msgs_egg\n'}
+[2.978033] (-) TimerEvent: {}
+[3.078927] (-) TimerEvent: {}
+[3.179880] (-) TimerEvent: {}
+[3.280747] (-) TimerEvent: {}
+[3.381641] (-) TimerEvent: {}
+[3.482493] (-) TimerEvent: {}
+[3.583309] (-) TimerEvent: {}
+[3.684125] (-) TimerEvent: {}
+[3.784929] (-) TimerEvent: {}
+[3.885728] (-) TimerEvent: {}
+[3.986560] (-) TimerEvent: {}
+[4.087428] (-) TimerEvent: {}
+[4.188263] (-) TimerEvent: {}
+[4.289183] (-) TimerEvent: {}
+[4.393556] (-) TimerEvent: {}
+[4.499552] (-) TimerEvent: {}
+[4.610752] (-) TimerEvent: {}
+[4.618206] (gscam) CommandEnded: {'returncode': 0}
+[4.630116] (aruco_opencv_msgs) CommandEnded: {'returncode': 0}
+[4.711011] (-) TimerEvent: {}
+[4.813443] (-) TimerEvent: {}
+[4.915268] (-) TimerEvent: {}
+[4.942870] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'install'}
+[5.015492] (-) TimerEvent: {}
+[5.116871] (-) TimerEvent: {}
+[5.167138] (gscam) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/jetbot/ece417/ws/build/gscam'], 'cwd': '/home/jetbot/ece417/ws/build/gscam', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano-4gb-jp45'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/home/jetbot/ece417/ws/install/gscam/lib:/home/jetbot/ece417/ws/install/aruco_opencv/lib:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('CYCLONEDDS_URI', 'file:///home/jetbot/ece417/cyclonedds.xml'), ('HOME', '/root'), ('OLDPWD', '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/jetbot/ece417/ws/build/gscam'), ('PYTHONPATH', '/home/jetbot/ece417/ws/build/py_pubsub:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[5.217132] (-) TimerEvent: {}
+[5.290509] (aruco_opencv_msgs) JobProgress: {'identifier': 'aruco_opencv_msgs', 'progress': 'install'}
+[5.290762] (aruco_opencv_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/jetbot/ece417/ws/build/aruco_opencv_msgs'], 'cwd': '/home/jetbot/ece417/ws/build/aruco_opencv_msgs', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano-4gb-jp45'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/home/jetbot/ece417/ws/install/gscam/lib:/home/jetbot/ece417/ws/install/aruco_opencv/lib:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('CYCLONEDDS_URI', 'file:///home/jetbot/ece417/cyclonedds.xml'), ('HOME', '/root'), ('OLDPWD', '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/jetbot/ece417/ws/build/aruco_opencv_msgs'), ('PYTHONPATH', '/home/jetbot/ece417/ws/build/py_pubsub:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[5.317342] (-) TimerEvent: {}
+[5.370850] (gscam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.372472] (gscam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.373937] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/lib/gscam/gscam_node\n'}
+[5.375041] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/library_path.sh\n'}
+[5.375937] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/library_path.dsv\n'}
+[5.376921] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/package_run_dependencies/gscam\n'}
+[5.377912] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/parent_prefix_path/gscam\n'}
+[5.378821] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/ament_prefix_path.sh\n'}
+[5.379599] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/ament_prefix_path.dsv\n'}
+[5.380515] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/path.sh\n'}
+[5.381352] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/environment/path.dsv\n'}
+[5.382180] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.bash\n'}
+[5.382998] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.sh\n'}
+[5.383815] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.zsh\n'}
+[5.384597] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/local_setup.dsv\n'}
+[5.385292] (gscam) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/gscam/share/gscam/package.dsv\n'}
+[5.395759] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/packages/gscam\n'}
+[5.396665] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/ament_index/resource_index/rclcpp_components/gscam\n'}
+[5.397465] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.398354] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.399173] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.400015] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.400870] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/gscamConfig.cmake\n'}
+[5.401675] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/gscamConfig-version.cmake\n'}
+[5.402464] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/package.xml\n'}
+[5.404408] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/component_pipeline_launch.py\n'}
+[5.405238] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/csi_cam_640x360.ini\n'}
+[5.406082] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/decklink.launch.xml\n'}
+[5.406846] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/minoru.launch.xml\n'}
+[5.407522] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/nvcsi.launch.xml\n'}
+[5.408220] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/osx.launch.xml\n'}
+[5.408894] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/uncalibrated_parameters.ini\n'}
+[5.409692] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/v4l.launch.xml\n'}
+[5.410607] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/v4ljpeg.launch.xml\n'}
+[5.412040] (gscam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/gscam/share/gscam/examples/videofile.launch.xml\n'}
+[5.412577] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/export_gscamExport.cmake\n'}
+[5.413103] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake\n'}
+[5.415555] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/gscam/lib/libgscam.so\n'}
+[5.417762] (-) TimerEvent: {}
+[5.457164] (gscam) CommandEnded: {'returncode': 0}
+[5.487530] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.494826] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.495523] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_opencv_msgs\n'}
+[5.496055] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/aruco_detection.h\n'}
+[5.496553] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/board_pose.h\n'}
+[5.497037] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__functions.h\n'}
+[5.497902] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__struct.h\n'}
+[5.498469] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.h\n'}
+[5.499152] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__functions.h\n'}
+[5.499829] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__struct.h\n'}
+[5.500464] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.h\n'}
+[5.501085] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__functions.h\n'}
+[5.501807] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__struct.h\n'}
+[5.502458] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.h\n'}
+[5.502985] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/marker_pose.h\n'}
+[5.503632] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.504131] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.sh\n'}
+[5.504609] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.dsv\n'}
+[5.510358] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[5.511354] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[5.512186] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[5.512746] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.513238] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_c.h\n'}
+[5.513812] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_c.h\n'}
+[5.514542] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_c.h\n'}
+[5.515176] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.515839] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/aruco_detection.hpp\n'}
+[5.516498] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/board_pose.hpp\n'}
+[5.517160] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__builder.hpp\n'}
+[5.524428] (-) TimerEvent: {}
+[5.526053] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__struct.hpp\n'}
+[5.527658] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__traits.hpp\n'}
+[5.528675] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__builder.hpp\n'}
+[5.529964] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__struct.hpp\n'}
+[5.530913] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__traits.hpp\n'}
+[5.535630] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__builder.hpp\n'}
+[5.536405] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__struct.hpp\n'}
+[5.537001] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__traits.hpp\n'}
+[5.537568] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/marker_pose.hpp\n'}
+[5.538238] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.538848] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.539420] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.539957] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.540498] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.541048] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.546839] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.547597] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.sh\n'}
+[5.548496] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.dsv\n'}
+[5.549335] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs-2.3.1-py3.6.egg-info/PKG-INFO\n'}
+[5.550268] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs-2.3.1-py3.6.egg-info/SOURCES.txt\n'}
+[5.550950] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs-2.3.1-py3.6.egg-info/dependency_links.txt\n'}
+[5.551438] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs-2.3.1-py3.6.egg-info/top_level.txt\n'}
+[5.551923] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/__init__.py\n'}
+[5.552414] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.552879] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.553341] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.553965] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[5.554551] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[5.555187] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[5.555735] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/libaruco_opencv_msgs__rosidl_generator_py.so\n'}
+[5.556222] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/__init__.py\n'}
+[5.556721] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_aruco_detection.py\n'}
+[5.557256] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_aruco_detection_s.c\n'}
+[5.571347] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_board_pose.py\n'}
+[5.571976] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_board_pose_s.c\n'}
+[5.572634] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_marker_pose.py\n'}
+[5.575534] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg/_marker_pose_s.c\n'}
+[5.576230] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[5.576898] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[5.578176] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[5.578881] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.idl\n'}
+[5.579399] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.idl\n'}
+[5.579887] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.idl\n'}
+[5.580435] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.msg\n'}
+[5.580923] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.msg\n'}
+[5.581409] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.msg\n'}
+[5.582075] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_opencv_msgs\n'}
+[5.582635] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_opencv_msgs\n'}
+[5.583194] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.sh\n'}
+[5.583747] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.dsv\n'}
+[5.584284] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.sh\n'}
+[5.584805] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.dsv\n'}
+[5.585324] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.bash\n'}
+[5.594030] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.sh\n'}
+[5.595686] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.zsh\n'}
+[5.597734] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.dsv\n'}
+[5.598373] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv\n'}
+[5.600499] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/ament_index/resource_index/packages/aruco_opencv_msgs\n'}
+[5.601009] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.603119] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.603656] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.611040] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.611677] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.612220] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.612747] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.613252] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig.cmake\n'}
+[5.613839] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig-version.cmake\n'}
+[5.614358] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.xml\n'}
+[5.614886] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_c.so\n'}
+[5.615408] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.615958] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.616488] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_c.so\n'}
+[5.617023] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.617539] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.618180] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_cpp.so\n'}
+[5.629765] (-) TimerEvent: {}
+[5.735754] (-) TimerEvent: {}
+[5.828832] (aruco_opencv_msgs) StdoutLine: {'line': b"Listing '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs'...\n"}
+[5.830126] (aruco_opencv_msgs) StdoutLine: {'line': b"Listing '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages/aruco_opencv_msgs/msg'...\n"}
+[5.836025] (-) TimerEvent: {}
+[5.863193] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_py.so\n'}
+[5.865379] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cExport.cmake\n'}
+[5.866732] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.873482] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.874885] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.876303] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.877439] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.878919] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.880807] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.882322] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.883857] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.886533] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.887202] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.889562] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.891219] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.891838] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.909970] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.910713] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetbot/ece417/ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.935068] (aruco_opencv_msgs) CommandEnded: {'returncode': 0}
+[5.937059] (-) TimerEvent: {}
+[6.044502] (-) TimerEvent: {}
+[6.151452] (-) TimerEvent: {}
+[6.264373] (-) TimerEvent: {}
+[6.386936] (-) TimerEvent: {}
+[6.499705] (-) TimerEvent: {}
+[6.519559] (gscam) JobEnded: {'identifier': 'gscam', 'rc': 0}
+[6.599879] (-) TimerEvent: {}
+[6.701317] (-) TimerEvent: {}
+[6.808386] (-) TimerEvent: {}
+[6.931086] (-) TimerEvent: {}
+[7.048631] (-) TimerEvent: {}
+[7.135253] (aruco_opencv_msgs) JobEnded: {'identifier': 'aruco_opencv_msgs', 'rc': 0}
+[7.158029] (-) TimerEvent: {}
+[7.159237] (aruco_opencv) JobStarted: {'identifier': 'aruco_opencv'}
+[7.266910] (-) TimerEvent: {}
+[7.340721] (aruco_opencv) JobProgress: {'identifier': 'aruco_opencv', 'progress': 'cmake'}
+[7.344900] (aruco_opencv) JobProgress: {'identifier': 'aruco_opencv', 'progress': 'build'}
+[7.347489] (aruco_opencv) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jetbot/ece417/ws/build/aruco_opencv', '--', '-j4', '-l4'], 'cwd': '/home/jetbot/ece417/ws/build/aruco_opencv', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano-4gb-jp45'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/home/jetbot/ece417/ws/install/aruco_opencv/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib'), ('SHLVL', '1'), ('CYCLONEDDS_URI', 'file:///home/jetbot/ece417/cyclonedds.xml'), ('HOME', '/root'), ('OLDPWD', '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/jetbot/ece417/ws/build/aruco_opencv'), ('PYTHONPATH', '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/py_pubsub:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[7.367168] (-) TimerEvent: {}
+[7.409655] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jetbot/ece417/ws/build/py_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/jetbot/ece417/ws/build/py_pubsub', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'nano-4gb-jp45', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'LD_LIBRARY_PATH': '/home/jetbot/ece417/ws/install/gscam/lib:/home/jetbot/ece417/ws/install/aruco_opencv/lib:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:', 'SHLVL': '1', 'CYCLONEDDS_URI': 'file:///home/jetbot/ece417/cyclonedds.xml', 'HOME': '/root', 'OLDPWD': '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/home/jetbot/ece417/ws/build/py_pubsub', 'PYTHONPATH': '/home/jetbot/ece417/ws/build/py_pubsub/prefix_override:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/py_pubsub:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[7.450935] (jetbot_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jetbot/ece417/ws/build/jetbot_ros/build', '--no-deps', 'install_data'], 'cwd': '/home/jetbot/ece417/ws/build/jetbot_ros', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'nano-4gb-jp45', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'LD_LIBRARY_PATH': '/home/jetbot/ece417/ws/install/gscam/lib:/home/jetbot/ece417/ws/install/aruco_opencv/lib:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:', 'SHLVL': '1', 'CYCLONEDDS_URI': 'file:///home/jetbot/ece417/cyclonedds.xml', 'HOME': '/root', 'OLDPWD': '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/home/jetbot/ece417/ws/build/jetbot_ros', 'PYTHONPATH': '/home/jetbot/ece417/ws/build/jetbot_ros/prefix_override:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/py_pubsub:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[7.467349] (-) TimerEvent: {}
+[7.571362] (-) TimerEvent: {}
+[7.673248] (-) TimerEvent: {}
+[7.689276] (aruco_opencv) StdoutLine: {'line': b'[ 28%] Built target aruco_tracker_autostart\n'}
+[7.700061] (aruco_opencv) StdoutLine: {'line': b'[ 57%] Built target aruco_tracker\n'}
+[7.719046] (aruco_opencv) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv.dir/src/aruco_tracker.cpp.o\x1b[0m\n'}
+[7.773485] (-) TimerEvent: {}
+[7.875693] (-) TimerEvent: {}
+[7.977856] (-) TimerEvent: {}
+[8.080040] (-) TimerEvent: {}
+[8.182219] (-) TimerEvent: {}
+[8.284398] (-) TimerEvent: {}
+[8.386592] (-) TimerEvent: {}
+[8.488964] (-) TimerEvent: {}
+[8.593738] (-) TimerEvent: {}
+[8.696248] (-) TimerEvent: {}
+[8.798642] (-) TimerEvent: {}
+[8.901078] (-) TimerEvent: {}
+[9.003229] (-) TimerEvent: {}
+[9.009139] (jetbot_ros) StderrLine: {'line': b"/usr/local/lib/python3.6/dist-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[9.010210] (jetbot_ros) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[9.103463] (-) TimerEvent: {}
+[9.205828] (-) TimerEvent: {}
+[9.237214] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[9.238720] (py_pubsub) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.239426] (py_pubsub) StderrLine: {'line': b'  EasyInstallDeprecationWarning,\n'}
+[9.244773] (py_pubsub) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.245487] (py_pubsub) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[9.275153] (jetbot_ros) StdoutLine: {'line': b'running develop\n'}
+[9.276596] (jetbot_ros) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.277278] (jetbot_ros) StderrLine: {'line': b'  EasyInstallDeprecationWarning,\n'}
+[9.283377] (jetbot_ros) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.284058] (jetbot_ros) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[9.305997] (-) TimerEvent: {}
+[9.417074] (-) TimerEvent: {}
+[9.519265] (-) TimerEvent: {}
+[9.621403] (-) TimerEvent: {}
+[9.723599] (-) TimerEvent: {}
+[9.825815] (-) TimerEvent: {}
+[9.926627] (-) TimerEvent: {}
+[10.027509] (-) TimerEvent: {}
+[10.129826] (-) TimerEvent: {}
+[10.232015] (-) TimerEvent: {}
+[10.319462] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[10.320488] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[10.322572] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[10.323544] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[10.324431] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[10.325201] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[10.332271] (-) TimerEvent: {}
+[10.335038] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[10.340520] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[10.353816] (jetbot_ros) StdoutLine: {'line': b'running egg_info\n'}
+[10.354758] (jetbot_ros) StdoutLine: {'line': b'writing jetbot_ros.egg-info/PKG-INFO\n'}
+[10.355616] (jetbot_ros) StdoutLine: {'line': b'writing dependency_links to jetbot_ros.egg-info/dependency_links.txt\n'}
+[10.356771] (jetbot_ros) StdoutLine: {'line': b'writing entry points to jetbot_ros.egg-info/entry_points.txt\n'}
+[10.357518] (jetbot_ros) StdoutLine: {'line': b'writing requirements to jetbot_ros.egg-info/requires.txt\n'}
+[10.358456] (jetbot_ros) StdoutLine: {'line': b'writing top-level names to jetbot_ros.egg-info/top_level.txt\n'}
+[10.370584] (jetbot_ros) StdoutLine: {'line': b"reading manifest file 'jetbot_ros.egg-info/SOURCES.txt'\n"}
+[10.381815] (jetbot_ros) StdoutLine: {'line': b"writing manifest file 'jetbot_ros.egg-info/SOURCES.txt'\n"}
+[10.432507] (-) TimerEvent: {}
+[10.534824] (-) TimerEvent: {}
+[10.573795] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[10.574793] (py_pubsub) StdoutLine: {'line': b'Creating /home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages/py-pubsub.egg-link (link to .)\n'}
+[10.580281] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/jetbot/ece417/ws/install/py_pubsub/lib/py_pubsub\n'}
+[10.581197] (py_pubsub) StdoutLine: {'line': b'Installing move2aruco script to /home/jetbot/ece417/ws/install/py_pubsub/lib/py_pubsub\n'}
+[10.582061] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/jetbot/ece417/ws/install/py_pubsub/lib/py_pubsub\n'}
+[10.583031] (py_pubsub) StdoutLine: {'line': b'\n'}
+[10.583817] (py_pubsub) StdoutLine: {'line': b'Installed /home/jetbot/ece417/ws/build/py_pubsub\n'}
+[10.584474] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[10.619289] (jetbot_ros) StdoutLine: {'line': b'running build_ext\n'}
+[10.620509] (jetbot_ros) StdoutLine: {'line': b'Creating /home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages/jetbot-ros.egg-link (link to .)\n'}
+[10.626035] (jetbot_ros) StdoutLine: {'line': b'Installing data_collection script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.627066] (jetbot_ros) StdoutLine: {'line': b'Installing gazebo_spawn script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.627974] (jetbot_ros) StdoutLine: {'line': b'Installing motors_nvidia script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.629013] (jetbot_ros) StdoutLine: {'line': b'Installing motors_sparkfun script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.630183] (jetbot_ros) StdoutLine: {'line': b'Installing motors_waveshare script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.631218] (jetbot_ros) StdoutLine: {'line': b'Installing nav_model script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.632059] (jetbot_ros) StdoutLine: {'line': b'Installing oled_ssd1306 script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.633087] (jetbot_ros) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/jetbot/ece417/ws/install/jetbot_ros/lib/jetbot_ros\n'}
+[10.634003] (jetbot_ros) StdoutLine: {'line': b'\n'}
+[10.634658] (jetbot_ros) StdoutLine: {'line': b'Installed /home/jetbot/ece417/ws/build/jetbot_ros\n'}
+[10.635259] (-) TimerEvent: {}
+[10.637883] (jetbot_ros) StdoutLine: {'line': b'running install_data\n'}
+[10.740656] (py_pubsub) CommandEnded: {'returncode': 0}
+[10.747682] (-) TimerEvent: {}
+[10.870533] (-) TimerEvent: {}
+[10.967582] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[10.993867] (-) TimerEvent: {}
+[11.004666] (jetbot_ros) CommandEnded: {'returncode': 0}
+[11.105905] (-) TimerEvent: {}
+[11.196660] (jetbot_ros) JobEnded: {'identifier': 'jetbot_ros', 'rc': 0}
+[11.206074] (-) TimerEvent: {}
+[11.306881] (-) TimerEvent: {}
+[11.407855] (-) TimerEvent: {}
+[11.508690] (-) TimerEvent: {}
+[11.609495] (-) TimerEvent: {}
+[11.710367] (-) TimerEvent: {}
+[11.811117] (-) TimerEvent: {}
+[11.911918] (-) TimerEvent: {}
+[12.012731] (-) TimerEvent: {}
+[12.113543] (-) TimerEvent: {}
+[12.214422] (-) TimerEvent: {}
+[12.315232] (-) TimerEvent: {}
+[12.416043] (-) TimerEvent: {}
+[12.516856] (-) TimerEvent: {}
+[12.617730] (-) TimerEvent: {}
+[12.718475] (-) TimerEvent: {}
+[12.819318] (-) TimerEvent: {}
+[12.920127] (-) TimerEvent: {}
+[13.020866] (-) TimerEvent: {}
+[13.121738] (-) TimerEvent: {}
+[13.222534] (-) TimerEvent: {}
+[13.323280] (-) TimerEvent: {}
+[13.424104] (-) TimerEvent: {}
+[13.524920] (-) TimerEvent: {}
+[13.625735] (-) TimerEvent: {}
+[13.726549] (-) TimerEvent: {}
+[13.827341] (-) TimerEvent: {}
+[13.928160] (-) TimerEvent: {}
+[14.029042] (-) TimerEvent: {}
+[14.130005] (-) TimerEvent: {}
+[14.230820] (-) TimerEvent: {}
+[14.331633] (-) TimerEvent: {}
+[14.433775] (-) TimerEvent: {}
+[14.534595] (-) TimerEvent: {}
+[14.635410] (-) TimerEvent: {}
+[14.736278] (-) TimerEvent: {}
+[14.837147] (-) TimerEvent: {}
+[14.938070] (-) TimerEvent: {}
+[15.038944] (-) TimerEvent: {}
+[15.139804] (-) TimerEvent: {}
+[15.240764] (-) TimerEvent: {}
+[15.341669] (-) TimerEvent: {}
+[15.442523] (-) TimerEvent: {}
+[15.543399] (-) TimerEvent: {}
+[15.644285] (-) TimerEvent: {}
+[15.745179] (-) TimerEvent: {}
+[15.846131] (-) TimerEvent: {}
+[15.946993] (-) TimerEvent: {}
+[16.047796] (-) TimerEvent: {}
+[16.148618] (-) TimerEvent: {}
+[16.249450] (-) TimerEvent: {}
+[16.350449] (-) TimerEvent: {}
+[16.451326] (-) TimerEvent: {}
+[16.552260] (-) TimerEvent: {}
+[16.653185] (-) TimerEvent: {}
+[16.754068] (-) TimerEvent: {}
+[16.856513] (-) TimerEvent: {}
+[16.957472] (-) TimerEvent: {}
+[17.058419] (-) TimerEvent: {}
+[17.159273] (-) TimerEvent: {}
+[17.260089] (-) TimerEvent: {}
+[17.360955] (-) TimerEvent: {}
+[17.461823] (-) TimerEvent: {}
+[17.562698] (-) TimerEvent: {}
+[17.663580] (-) TimerEvent: {}
+[17.764461] (-) TimerEvent: {}
+[17.865368] (-) TimerEvent: {}
+[17.966282] (-) TimerEvent: {}
+[18.067094] (-) TimerEvent: {}
+[18.168064] (-) TimerEvent: {}
+[18.268984] (-) TimerEvent: {}
+[18.369808] (-) TimerEvent: {}
+[18.470639] (-) TimerEvent: {}
+[18.571469] (-) TimerEvent: {}
+[18.672346] (-) TimerEvent: {}
+[18.773216] (-) TimerEvent: {}
+[18.874116] (-) TimerEvent: {}
+[18.974995] (-) TimerEvent: {}
+[19.075865] (-) TimerEvent: {}
+[19.176735] (-) TimerEvent: {}
+[19.279778] (-) TimerEvent: {}
+[19.380520] (-) TimerEvent: {}
+[19.481377] (-) TimerEvent: {}
+[19.582242] (-) TimerEvent: {}
+[19.682995] (-) TimerEvent: {}
+[19.783852] (-) TimerEvent: {}
+[19.884727] (-) TimerEvent: {}
+[19.985651] (-) TimerEvent: {}
+[20.086524] (-) TimerEvent: {}
+[20.187388] (-) TimerEvent: {}
+[20.288192] (-) TimerEvent: {}
+[20.389076] (-) TimerEvent: {}
+[20.490310] (-) TimerEvent: {}
+[20.591195] (-) TimerEvent: {}
+[20.692058] (-) TimerEvent: {}
+[20.792966] (-) TimerEvent: {}
+[20.894015] (-) TimerEvent: {}
+[20.994897] (-) TimerEvent: {}
+[21.095719] (-) TimerEvent: {}
+[21.196545] (-) TimerEvent: {}
+[21.297374] (-) TimerEvent: {}
+[21.398276] (-) TimerEvent: {}
+[21.499094] (-) TimerEvent: {}
+[21.599913] (-) TimerEvent: {}
+[21.700737] (-) TimerEvent: {}
+[21.801566] (-) TimerEvent: {}
+[21.902466] (-) TimerEvent: {}
+[22.003289] (-) TimerEvent: {}
+[22.104045] (-) TimerEvent: {}
+[22.204935] (-) TimerEvent: {}
+[22.305746] (-) TimerEvent: {}
+[22.406558] (-) TimerEvent: {}
+[22.507366] (-) TimerEvent: {}
+[22.608173] (-) TimerEvent: {}
+[22.708985] (-) TimerEvent: {}
+[22.809792] (-) TimerEvent: {}
+[22.910596] (-) TimerEvent: {}
+[23.011409] (-) TimerEvent: {}
+[23.112218] (-) TimerEvent: {}
+[23.213031] (-) TimerEvent: {}
+[23.313931] (-) TimerEvent: {}
+[23.414671] (-) TimerEvent: {}
+[23.515422] (-) TimerEvent: {}
+[23.616237] (-) TimerEvent: {}
+[23.717053] (-) TimerEvent: {}
+[23.817854] (-) TimerEvent: {}
+[23.918677] (-) TimerEvent: {}
+[24.019520] (-) TimerEvent: {}
+[24.120337] (-) TimerEvent: {}
+[24.221170] (-) TimerEvent: {}
+[24.322130] (-) TimerEvent: {}
+[24.422945] (-) TimerEvent: {}
+[24.523763] (-) TimerEvent: {}
+[24.624596] (-) TimerEvent: {}
+[24.726641] (-) TimerEvent: {}
+[24.828317] (-) TimerEvent: {}
+[24.929164] (-) TimerEvent: {}
+[25.030114] (-) TimerEvent: {}
+[25.130980] (-) TimerEvent: {}
+[25.231849] (-) TimerEvent: {}
+[25.332729] (-) TimerEvent: {}
+[25.433669] (-) TimerEvent: {}
+[25.534540] (-) TimerEvent: {}
+[25.635416] (-) TimerEvent: {}
+[25.736295] (-) TimerEvent: {}
+[25.837104] (-) TimerEvent: {}
+[25.938084] (-) TimerEvent: {}
+[26.038997] (-) TimerEvent: {}
+[26.139810] (-) TimerEvent: {}
+[26.240694] (-) TimerEvent: {}
+[26.341502] (-) TimerEvent: {}
+[26.442356] (-) TimerEvent: {}
+[26.543156] (-) TimerEvent: {}
+[26.643980] (-) TimerEvent: {}
+[26.744738] (-) TimerEvent: {}
+[26.845541] (-) TimerEvent: {}
+[26.946408] (-) TimerEvent: {}
+[27.047225] (-) TimerEvent: {}
+[27.148048] (-) TimerEvent: {}
+[27.248847] (-) TimerEvent: {}
+[27.349918] (-) TimerEvent: {}
+[27.450669] (-) TimerEvent: {}
+[27.551477] (-) TimerEvent: {}
+[27.652305] (-) TimerEvent: {}
+[27.753127] (-) TimerEvent: {}
+[27.854036] (-) TimerEvent: {}
+[27.954859] (-) TimerEvent: {}
+[28.055676] (-) TimerEvent: {}
+[28.156496] (-) TimerEvent: {}
+[28.257312] (-) TimerEvent: {}
+[28.358207] (-) TimerEvent: {}
+[28.459016] (-) TimerEvent: {}
+[28.559827] (-) TimerEvent: {}
+[28.660656] (-) TimerEvent: {}
+[28.761547] (-) TimerEvent: {}
+[28.862419] (-) TimerEvent: {}
+[28.963234] (-) TimerEvent: {}
+[29.063980] (-) TimerEvent: {}
+[29.164795] (-) TimerEvent: {}
+[29.265668] (-) TimerEvent: {}
+[29.366478] (-) TimerEvent: {}
+[29.467286] (-) TimerEvent: {}
+[29.568031] (-) TimerEvent: {}
+[29.668846] (-) TimerEvent: {}
+[29.769717] (-) TimerEvent: {}
+[29.870575] (-) TimerEvent: {}
+[29.971388] (-) TimerEvent: {}
+[30.072189] (-) TimerEvent: {}
+[30.172993] (-) TimerEvent: {}
+[30.273911] (-) TimerEvent: {}
+[30.374758] (-) TimerEvent: {}
+[30.475576] (-) TimerEvent: {}
+[30.576397] (-) TimerEvent: {}
+[30.677235] (-) TimerEvent: {}
+[30.778129] (-) TimerEvent: {}
+[30.878951] (-) TimerEvent: {}
+[30.979774] (-) TimerEvent: {}
+[31.080604] (-) TimerEvent: {}
+[31.181432] (-) TimerEvent: {}
+[31.282313] (-) TimerEvent: {}
+[31.383237] (-) TimerEvent: {}
+[31.483990] (-) TimerEvent: {}
+[31.584784] (-) TimerEvent: {}
+[31.685666] (-) TimerEvent: {}
+[31.786431] (-) TimerEvent: {}
+[31.887248] (-) TimerEvent: {}
+[31.988067] (-) TimerEvent: {}
+[32.088895] (-) TimerEvent: {}
+[32.189747] (-) TimerEvent: {}
+[32.290568] (-) TimerEvent: {}
+[32.391386] (-) TimerEvent: {}
+[32.492199] (-) TimerEvent: {}
+[32.593018] (-) TimerEvent: {}
+[32.693832] (-) TimerEvent: {}
+[32.794699] (-) TimerEvent: {}
+[32.897208] (-) TimerEvent: {}
+[32.998204] (-) TimerEvent: {}
+[33.099120] (-) TimerEvent: {}
+[33.199941] (-) TimerEvent: {}
+[33.300749] (-) TimerEvent: {}
+[33.401477] (-) TimerEvent: {}
+[33.502348] (-) TimerEvent: {}
+[33.603170] (-) TimerEvent: {}
+[33.703991] (-) TimerEvent: {}
+[33.804830] (-) TimerEvent: {}
+[33.905718] (-) TimerEvent: {}
+[34.006532] (-) TimerEvent: {}
+[34.107350] (-) TimerEvent: {}
+[34.208138] (-) TimerEvent: {}
+[34.308973] (-) TimerEvent: {}
+[34.409763] (-) TimerEvent: {}
+[34.510577] (-) TimerEvent: {}
+[34.611414] (-) TimerEvent: {}
+[34.712230] (-) TimerEvent: {}
+[34.813043] (-) TimerEvent: {}
+[34.913925] (-) TimerEvent: {}
+[35.014815] (-) TimerEvent: {}
+[35.115633] (-) TimerEvent: {}
+[35.216441] (-) TimerEvent: {}
+[35.317198] (-) TimerEvent: {}
+[35.422834] (-) TimerEvent: {}
+[35.523654] (-) TimerEvent: {}
+[35.624484] (-) TimerEvent: {}
+[35.725302] (-) TimerEvent: {}
+[35.826848] (-) TimerEvent: {}
+[35.927663] (-) TimerEvent: {}
+[36.028474] (-) TimerEvent: {}
+[36.129312] (-) TimerEvent: {}
+[36.230199] (-) TimerEvent: {}
+[36.331008] (-) TimerEvent: {}
+[36.431817] (-) TimerEvent: {}
+[36.532631] (-) TimerEvent: {}
+[36.633442] (-) TimerEvent: {}
+[36.734321] (-) TimerEvent: {}
+[36.835152] (-) TimerEvent: {}
+[36.936008] (-) TimerEvent: {}
+[37.036812] (-) TimerEvent: {}
+[37.137689] (-) TimerEvent: {}
+[37.238512] (-) TimerEvent: {}
+[37.339329] (-) TimerEvent: {}
+[37.440148] (-) TimerEvent: {}
+[37.540961] (-) TimerEvent: {}
+[37.641784] (-) TimerEvent: {}
+[37.742595] (-) TimerEvent: {}
+[37.843404] (-) TimerEvent: {}
+[37.944221] (-) TimerEvent: {}
+[38.045030] (-) TimerEvent: {}
+[38.145850] (-) TimerEvent: {}
+[38.246653] (-) TimerEvent: {}
+[38.347506] (-) TimerEvent: {}
+[38.448254] (-) TimerEvent: {}
+[38.549070] (-) TimerEvent: {}
+[38.649942] (-) TimerEvent: {}
+[38.750756] (-) TimerEvent: {}
+[38.851518] (-) TimerEvent: {}
+[38.952325] (-) TimerEvent: {}
+[39.053161] (-) TimerEvent: {}
+[39.154043] (-) TimerEvent: {}
+[39.254845] (-) TimerEvent: {}
+[39.355666] (-) TimerEvent: {}
+[39.456515] (-) TimerEvent: {}
+[39.557264] (-) TimerEvent: {}
+[39.658154] (-) TimerEvent: {}
+[39.759328] (-) TimerEvent: {}
+[39.860134] (-) TimerEvent: {}
+[39.960948] (-) TimerEvent: {}
+[40.061769] (-) TimerEvent: {}
+[40.162634] (-) TimerEvent: {}
+[40.263448] (-) TimerEvent: {}
+[40.364252] (-) TimerEvent: {}
+[40.465052] (-) TimerEvent: {}
+[40.565916] (-) TimerEvent: {}
+[40.666658] (-) TimerEvent: {}
+[40.767495] (-) TimerEvent: {}
+[40.868373] (-) TimerEvent: {}
+[40.970650] (-) TimerEvent: {}
+[41.071512] (-) TimerEvent: {}
+[41.172379] (-) TimerEvent: {}
+[41.273205] (-) TimerEvent: {}
+[41.374064] (-) TimerEvent: {}
+[41.474883] (-) TimerEvent: {}
+[41.575702] (-) TimerEvent: {}
+[41.676505] (-) TimerEvent: {}
+[41.777340] (-) TimerEvent: {}
+[41.878238] (-) TimerEvent: {}
+[41.979047] (-) TimerEvent: {}
+[42.079851] (-) TimerEvent: {}
+[42.180654] (-) TimerEvent: {}
+[42.281392] (-) TimerEvent: {}
+[42.382269] (-) TimerEvent: {}
+[42.483050] (-) TimerEvent: {}
+[42.583834] (-) TimerEvent: {}
+[42.684566] (-) TimerEvent: {}
+[42.785351] (-) TimerEvent: {}
+[42.886096] (-) TimerEvent: {}
+[42.986900] (-) TimerEvent: {}
+[43.087684] (-) TimerEvent: {}
+[43.188513] (-) TimerEvent: {}
+[43.289320] (-) TimerEvent: {}
+[43.390140] (-) TimerEvent: {}
+[43.490982] (-) TimerEvent: {}
+[43.591790] (-) TimerEvent: {}
+[43.692648] (-) TimerEvent: {}
+[43.793455] (-) TimerEvent: {}
+[43.894344] (-) TimerEvent: {}
+[43.995160] (-) TimerEvent: {}
+[44.095973] (-) TimerEvent: {}
+[44.196790] (-) TimerEvent: {}
+[44.297667] (-) TimerEvent: {}
+[44.398488] (-) TimerEvent: {}
+[44.499295] (-) TimerEvent: {}
+[44.600106] (-) TimerEvent: {}
+[44.700932] (-) TimerEvent: {}
+[44.801747] (-) TimerEvent: {}
+[44.902544] (-) TimerEvent: {}
+[45.003381] (-) TimerEvent: {}
+[45.104170] (-) TimerEvent: {}
+[45.204964] (-) TimerEvent: {}
+[45.305788] (-) TimerEvent: {}
+[45.406586] (-) TimerEvent: {}
+[45.507409] (-) TimerEvent: {}
+[45.608225] (-) TimerEvent: {}
+[45.709035] (-) TimerEvent: {}
+[45.809908] (-) TimerEvent: {}
+[45.910650] (-) TimerEvent: {}
+[46.011470] (-) TimerEvent: {}
+[46.112273] (-) TimerEvent: {}
+[46.213020] (-) TimerEvent: {}
+[46.313848] (-) TimerEvent: {}
+[46.420306] (-) TimerEvent: {}
+[46.521215] (-) TimerEvent: {}
+[46.622130] (-) TimerEvent: {}
+[46.722968] (-) TimerEvent: {}
+[46.823782] (-) TimerEvent: {}
+[46.924598] (-) TimerEvent: {}
+[47.025420] (-) TimerEvent: {}
+[47.126324] (-) TimerEvent: {}
+[47.227141] (-) TimerEvent: {}
+[47.327962] (-) TimerEvent: {}
+[47.428784] (-) TimerEvent: {}
+[47.529668] (-) TimerEvent: {}
+[47.630545] (-) TimerEvent: {}
+[47.731416] (-) TimerEvent: {}
+[47.832244] (-) TimerEvent: {}
+[47.933068] (-) TimerEvent: {}
+[48.033951] (-) TimerEvent: {}
+[48.134774] (-) TimerEvent: {}
+[48.235603] (-) TimerEvent: {}
+[48.336411] (-) TimerEvent: {}
+[48.437227] (-) TimerEvent: {}
+[48.538116] (-) TimerEvent: {}
+[48.638940] (-) TimerEvent: {}
+[48.739767] (-) TimerEvent: {}
+[48.840581] (-) TimerEvent: {}
+[48.941332] (-) TimerEvent: {}
+[49.042219] (-) TimerEvent: {}
+[49.143164] (-) TimerEvent: {}
+[49.244020] (-) TimerEvent: {}
+[49.344863] (-) TimerEvent: {}
+[49.445730] (-) TimerEvent: {}
+[49.546531] (-) TimerEvent: {}
+[49.647351] (-) TimerEvent: {}
+[49.748148] (-) TimerEvent: {}
+[49.848975] (-) TimerEvent: {}
+[49.949806] (-) TimerEvent: {}
+[50.050621] (-) TimerEvent: {}
+[50.151437] (-) TimerEvent: {}
+[50.252248] (-) TimerEvent: {}
+[50.353087] (-) TimerEvent: {}
+[50.454140] (-) TimerEvent: {}
+[50.555037] (-) TimerEvent: {}
+[50.655952] (-) TimerEvent: {}
+[50.756825] (-) TimerEvent: {}
+[50.857727] (-) TimerEvent: {}
+[50.958585] (-) TimerEvent: {}
+[51.059455] (-) TimerEvent: {}
+[51.160317] (-) TimerEvent: {}
+[51.261189] (-) TimerEvent: {}
+[51.362056] (-) TimerEvent: {}
+[51.462960] (-) TimerEvent: {}
+[51.563863] (-) TimerEvent: {}
+[51.664660] (-) TimerEvent: {}
+[51.765393] (-) TimerEvent: {}
+[51.866247] (-) TimerEvent: {}
+[51.967120] (-) TimerEvent: {}
+[52.067911] (-) TimerEvent: {}
+[52.168717] (-) TimerEvent: {}
+[52.269536] (-) TimerEvent: {}
+[52.370424] (-) TimerEvent: {}
+[52.471229] (-) TimerEvent: {}
+[52.572021] (-) TimerEvent: {}
+[52.672760] (-) TimerEvent: {}
+[52.773563] (-) TimerEvent: {}
+[52.874413] (-) TimerEvent: {}
+[52.975163] (-) TimerEvent: {}
+[53.076126] (-) TimerEvent: {}
+[53.176926] (-) TimerEvent: {}
+[53.277729] (-) TimerEvent: {}
+[53.378526] (-) TimerEvent: {}
+[53.479328] (-) TimerEvent: {}
+[53.580114] (-) TimerEvent: {}
+[53.680909] (-) TimerEvent: {}
+[53.781763] (-) TimerEvent: {}
+[53.882560] (-) TimerEvent: {}
+[53.983301] (-) TimerEvent: {}
+[54.084099] (-) TimerEvent: {}
+[54.184895] (-) TimerEvent: {}
+[54.285751] (-) TimerEvent: {}
+[54.386485] (-) TimerEvent: {}
+[54.487509] (-) TimerEvent: {}
+[54.588312] (-) TimerEvent: {}
+[54.689114] (-) TimerEvent: {}
+[54.789991] (-) TimerEvent: {}
+[54.890780] (-) TimerEvent: {}
+[54.991520] (-) TimerEvent: {}
+[55.092324] (-) TimerEvent: {}
+[55.193136] (-) TimerEvent: {}
+[55.294014] (-) TimerEvent: {}
+[55.394813] (-) TimerEvent: {}
+[55.495564] (-) TimerEvent: {}
+[55.596430] (-) TimerEvent: {}
+[55.697227] (-) TimerEvent: {}
+[55.798040] (-) TimerEvent: {}
+[55.898769] (-) TimerEvent: {}
+[55.999561] (-) TimerEvent: {}
+[56.100372] (-) TimerEvent: {}
+[56.201181] (-) TimerEvent: {}
+[56.302204] (-) TimerEvent: {}
+[56.402932] (-) TimerEvent: {}
+[56.503744] (-) TimerEvent: {}
+[56.604547] (-) TimerEvent: {}
+[56.705359] (-) TimerEvent: {}
+[56.806234] (-) TimerEvent: {}
+[56.907031] (-) TimerEvent: {}
+[57.007861] (-) TimerEvent: {}
+[57.108801] (-) TimerEvent: {}
+[57.209690] (-) TimerEvent: {}
+[57.310491] (-) TimerEvent: {}
+[57.411279] (-) TimerEvent: {}
+[57.512073] (-) TimerEvent: {}
+[57.612806] (-) TimerEvent: {}
+[57.713541] (-) TimerEvent: {}
+[57.814354] (-) TimerEvent: {}
+[57.915168] (-) TimerEvent: {}
+[58.015971] (-) TimerEvent: {}
+[58.116771] (-) TimerEvent: {}
+[58.217554] (-) TimerEvent: {}
+[58.318381] (-) TimerEvent: {}
+[58.419122] (-) TimerEvent: {}
+[58.519989] (-) TimerEvent: {}
+[58.620786] (-) TimerEvent: {}
+[58.721669] (-) TimerEvent: {}
+[58.822478] (-) TimerEvent: {}
+[58.923294] (-) TimerEvent: {}
+[59.024046] (-) TimerEvent: {}
+[59.124844] (-) TimerEvent: {}
+[59.225661] (-) TimerEvent: {}
+[59.326403] (-) TimerEvent: {}
+[59.427147] (-) TimerEvent: {}
+[59.527968] (-) TimerEvent: {}
+[59.628813] (-) TimerEvent: {}
+[59.729664] (-) TimerEvent: {}
+[59.830424] (-) TimerEvent: {}
+[59.931232] (-) TimerEvent: {}
+[60.032027] (-) TimerEvent: {}
+[60.132831] (-) TimerEvent: {}
+[60.233564] (-) TimerEvent: {}
+[60.334478] (-) TimerEvent: {}
+[60.435278] (-) TimerEvent: {}
+[60.536087] (-) TimerEvent: {}
+[60.636882] (-) TimerEvent: {}
+[60.737737] (-) TimerEvent: {}
+[60.838538] (-) TimerEvent: {}
+[60.939343] (-) TimerEvent: {}
+[61.040157] (-) TimerEvent: {}
+[61.140934] (-) TimerEvent: {}
+[61.241760] (-) TimerEvent: {}
+[61.342561] (-) TimerEvent: {}
+[61.443363] (-) TimerEvent: {}
+[61.544168] (-) TimerEvent: {}
+[61.644974] (-) TimerEvent: {}
+[61.745767] (-) TimerEvent: {}
+[61.846561] (-) TimerEvent: {}
+[61.947372] (-) TimerEvent: {}
+[62.048177] (-) TimerEvent: {}
+[62.148980] (-) TimerEvent: {}
+[62.249903] (-) TimerEvent: {}
+[62.350697] (-) TimerEvent: {}
+[62.451499] (-) TimerEvent: {}
+[62.552279] (-) TimerEvent: {}
+[62.653090] (-) TimerEvent: {}
+[62.753949] (-) TimerEvent: {}
+[62.854748] (-) TimerEvent: {}
+[62.955551] (-) TimerEvent: {}
+[63.056353] (-) TimerEvent: {}
+[63.157155] (-) TimerEvent: {}
+[63.258211] (-) TimerEvent: {}
+[63.359003] (-) TimerEvent: {}
+[63.459809] (-) TimerEvent: {}
+[63.560552] (-) TimerEvent: {}
+[63.661424] (-) TimerEvent: {}
+[63.762273] (-) TimerEvent: {}
+[63.863031] (-) TimerEvent: {}
+[63.963839] (-) TimerEvent: {}
+[64.064635] (-) TimerEvent: {}
+[64.165445] (-) TimerEvent: {}
+[64.266319] (-) TimerEvent: {}
+[64.367118] (-) TimerEvent: {}
+[64.467910] (-) TimerEvent: {}
+[64.568709] (-) TimerEvent: {}
+[64.669506] (-) TimerEvent: {}
+[64.770300] (-) TimerEvent: {}
+[64.871100] (-) TimerEvent: {}
+[64.971902] (-) TimerEvent: {}
+[65.072702] (-) TimerEvent: {}
+[65.174071] (-) TimerEvent: {}
+[65.274956] (-) TimerEvent: {}
+[65.375771] (-) TimerEvent: {}
+[65.476559] (-) TimerEvent: {}
+[65.577351] (-) TimerEvent: {}
+[65.678141] (-) TimerEvent: {}
+[65.778946] (-) TimerEvent: {}
+[65.879748] (-) TimerEvent: {}
+[65.980557] (-) TimerEvent: {}
+[66.081361] (-) TimerEvent: {}
+[66.182238] (-) TimerEvent: {}
+[66.282992] (-) TimerEvent: {}
+[66.383834] (-) TimerEvent: {}
+[66.484649] (-) TimerEvent: {}
+[66.585439] (-) TimerEvent: {}
+[66.686309] (-) TimerEvent: {}
+[66.787097] (-) TimerEvent: {}
+[66.887894] (-) TimerEvent: {}
+[66.988627] (-) TimerEvent: {}
+[67.089433] (-) TimerEvent: {}
+[67.190295] (-) TimerEvent: {}
+[67.291036] (-) TimerEvent: {}
+[67.391828] (-) TimerEvent: {}
+[67.492622] (-) TimerEvent: {}
+[67.593412] (-) TimerEvent: {}
+[67.694269] (-) TimerEvent: {}
+[67.795022] (-) TimerEvent: {}
+[67.895836] (-) TimerEvent: {}
+[67.996629] (-) TimerEvent: {}
+[68.097454] (-) TimerEvent: {}
+[68.198254] (-) TimerEvent: {}
+[68.299053] (-) TimerEvent: {}
+[68.399802] (-) TimerEvent: {}
+[68.500611] (-) TimerEvent: {}
+[68.601354] (-) TimerEvent: {}
+[68.702223] (-) TimerEvent: {}
+[68.803023] (-) TimerEvent: {}
+[68.903832] (-) TimerEvent: {}
+[69.004619] (-) TimerEvent: {}
+[69.107769] (-) TimerEvent: {}
+[69.209861] (-) TimerEvent: {}
+[69.310726] (-) TimerEvent: {}
+[69.411529] (-) TimerEvent: {}
+[69.512315] (-) TimerEvent: {}
+[69.613101] (-) TimerEvent: {}
+[69.713967] (-) TimerEvent: {}
+[69.814771] (-) TimerEvent: {}
+[69.915571] (-) TimerEvent: {}
+[70.016392] (-) TimerEvent: {}
+[70.117168] (-) TimerEvent: {}
+[70.218040] (-) TimerEvent: {}
+[70.318892] (-) TimerEvent: {}
+[70.419664] (-) TimerEvent: {}
+[70.520519] (-) TimerEvent: {}
+[70.621352] (-) TimerEvent: {}
+[70.722305] (-) TimerEvent: {}
+[70.823170] (-) TimerEvent: {}
+[70.924031] (-) TimerEvent: {}
+[71.024882] (-) TimerEvent: {}
+[71.125738] (-) TimerEvent: {}
+[71.227343] (-) TimerEvent: {}
+[71.329643] (-) TimerEvent: {}
+[71.430663] (-) TimerEvent: {}
+[71.531464] (-) TimerEvent: {}
+[71.632260] (-) TimerEvent: {}
+[71.733082] (-) TimerEvent: {}
+[71.833910] (-) TimerEvent: {}
+[71.934686] (-) TimerEvent: {}
+[72.035522] (-) TimerEvent: {}
+[72.136358] (-) TimerEvent: {}
+[72.237209] (-) TimerEvent: {}
+[72.338577] (-) TimerEvent: {}
+[72.439357] (-) TimerEvent: {}
+[72.540157] (-) TimerEvent: {}
+[72.640970] (-) TimerEvent: {}
+[72.741769] (-) TimerEvent: {}
+[72.842565] (-) TimerEvent: {}
+[72.943399] (-) TimerEvent: {}
+[73.044201] (-) TimerEvent: {}
+[73.145057] (-) TimerEvent: {}
+[73.245910] (-) TimerEvent: {}
+[73.347087] (-) TimerEvent: {}
+[73.447874] (-) TimerEvent: {}
+[73.548685] (-) TimerEvent: {}
+[73.649528] (-) TimerEvent: {}
+[73.750379] (-) TimerEvent: {}
+[73.851172] (-) TimerEvent: {}
+[73.951971] (-) TimerEvent: {}
+[74.052773] (-) TimerEvent: {}
+[74.153653] (-) TimerEvent: {}
+[74.254500] (-) TimerEvent: {}
+[74.355376] (-) TimerEvent: {}
+[74.456261] (-) TimerEvent: {}
+[74.557052] (-) TimerEvent: {}
+[74.658048] (-) TimerEvent: {}
+[74.758886] (-) TimerEvent: {}
+[74.859680] (-) TimerEvent: {}
+[74.960489] (-) TimerEvent: {}
+[75.061307] (-) TimerEvent: {}
+[75.162272] (-) TimerEvent: {}
+[75.263198] (-) TimerEvent: {}
+[75.364186] (-) TimerEvent: {}
+[75.465085] (-) TimerEvent: {}
+[75.565980] (-) TimerEvent: {}
+[75.668232] (-) TimerEvent: {}
+[75.769175] (-) TimerEvent: {}
+[75.870765] (-) TimerEvent: {}
+[75.934635] (aruco_opencv) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv.so\x1b[0m\n'}
+[75.970946] (-) TimerEvent: {}
+[76.071751] (-) TimerEvent: {}
+[76.172643] (-) TimerEvent: {}
+[76.273539] (-) TimerEvent: {}
+[76.374476] (-) TimerEvent: {}
+[76.475480] (-) TimerEvent: {}
+[76.576459] (-) TimerEvent: {}
+[76.677527] (-) TimerEvent: {}
+[76.778642] (-) TimerEvent: {}
+[76.879598] (-) TimerEvent: {}
+[76.980540] (-) TimerEvent: {}
+[77.081498] (-) TimerEvent: {}
+[77.182560] (-) TimerEvent: {}
+[77.283516] (-) TimerEvent: {}
+[77.384635] (-) TimerEvent: {}
+[77.485778] (-) TimerEvent: {}
+[77.586758] (-) TimerEvent: {}
+[77.687739] (-) TimerEvent: {}
+[77.788716] (-) TimerEvent: {}
+[77.889694] (-) TimerEvent: {}
+[77.990707] (-) TimerEvent: {}
+[78.091580] (-) TimerEvent: {}
+[78.192466] (-) TimerEvent: {}
+[78.293457] (-) TimerEvent: {}
+[78.394320] (-) TimerEvent: {}
+[78.495177] (-) TimerEvent: {}
+[78.595995] (-) TimerEvent: {}
+[78.696792] (-) TimerEvent: {}
+[78.797659] (-) TimerEvent: {}
+[78.898455] (-) TimerEvent: {}
+[78.999251] (-) TimerEvent: {}
+[79.100036] (-) TimerEvent: {}
+[79.200847] (-) TimerEvent: {}
+[79.301740] (-) TimerEvent: {}
+[79.402537] (-) TimerEvent: {}
+[79.503341] (-) TimerEvent: {}
+[79.604172] (-) TimerEvent: {}
+[79.705026] (-) TimerEvent: {}
+[79.805848] (-) TimerEvent: {}
+[79.906735] (-) TimerEvent: {}
+[80.008514] (-) TimerEvent: {}
+[80.109289] (-) TimerEvent: {}
+[80.210527] (-) TimerEvent: {}
+[80.311327] (-) TimerEvent: {}
+[80.367576] (aruco_opencv) StdoutLine: {'line': b'[100%] Built target aruco_opencv\n'}
+[80.403178] (aruco_opencv) CommandEnded: {'returncode': 0}
+[80.411873] (-) TimerEvent: {}
+[80.513161] (-) TimerEvent: {}
+[80.614204] (-) TimerEvent: {}
+[80.682486] (aruco_opencv) JobProgress: {'identifier': 'aruco_opencv', 'progress': 'install'}
+[80.684606] (aruco_opencv) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/jetbot/ece417/ws/build/aruco_opencv'], 'cwd': '/home/jetbot/ece417/ws/build/aruco_opencv', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano-4gb-jp45'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib:/home/jetbot/ece417/ws/install/gscam/lib:/home/jetbot/ece417/ws/install/aruco_opencv/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib'), ('SHLVL', '1'), ('CYCLONEDDS_URI', 'file:///home/jetbot/ece417/cyclonedds.xml'), ('HOME', '/root'), ('OLDPWD', '/home/jetbot/ece417/ws/src/ros_aruco_opencv/aruco_opencv/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/jetbot/ece417/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/jetbot/ece417/ws/build/aruco_opencv'), ('PYTHONPATH', '/home/jetbot/ece417/ws/install/aruco_opencv_msgs/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/py_pubsub:/home/jetbot/ece417/ws/install/py_pubsub/lib/python3.6/site-packages:/home/jetbot/ece417/ws/build/jetbot_ros:/home/jetbot/ece417/ws/install/jetbot_ros/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jetbot/ece417/ws/install/aruco_opencv_msgs:/home/jetbot/ece417/ws/install/gscam:/home/jetbot/ece417/ws/install/aruco_opencv:/home/jetbot/ece417/ws/install/py_pubsub:/home/jetbot/ece417/ws/install/jetbot_ros:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[80.714477] (-) TimerEvent: {}
+[80.815462] (-) TimerEvent: {}
+[80.849859] (aruco_opencv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[80.851388] (aruco_opencv) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[80.852521] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/aruco_tracker\n'}
+[80.853535] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/aruco_tracker_autostart\n'}
+[80.854763] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/lib/libaruco_opencv.so\n'}
+[80.856271] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/config/aruco_tracker.yaml\n'}
+[80.857005] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/config/board_descriptions.yaml\n'}
+[80.857952] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/launch/aruco.launch.xml\n'}
+[80.858570] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/launch/aruco_tracker.launch.xml\n'}
+[80.859200] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/create_board\n'}
+[80.859755] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/lib/aruco_opencv/create_marker\n'}
+[80.860531] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/package_run_dependencies/aruco_opencv\n'}
+[80.861339] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/parent_prefix_path/aruco_opencv\n'}
+[80.862335] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/ament_prefix_path.sh\n'}
+[80.863102] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/ament_prefix_path.dsv\n'}
+[80.863892] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/path.sh\n'}
+[80.864587] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/environment/path.dsv\n'}
+[80.865323] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.bash\n'}
+[80.866094] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.sh\n'}
+[80.866850] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.zsh\n'}
+[80.867518] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/local_setup.dsv\n'}
+[80.868120] (aruco_opencv) StdoutLine: {'line': b'-- Symlinking: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.dsv\n'}
+[80.877461] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/packages/aruco_opencv\n'}
+[80.878438] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/ament_index/resource_index/rclcpp_components/aruco_opencv\n'}
+[80.879164] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/cmake/aruco_opencvConfig.cmake\n'}
+[80.879757] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/cmake/aruco_opencvConfig-version.cmake\n'}
+[80.880494] (aruco_opencv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetbot/ece417/ws/install/aruco_opencv/share/aruco_opencv/package.xml\n'}
+[80.903649] (aruco_opencv) CommandEnded: {'returncode': 0}
+[80.920717] (-) TimerEvent: {}
+[81.031565] (-) TimerEvent: {}
+[81.132362] (-) TimerEvent: {}
+[81.233352] (-) TimerEvent: {}
+[81.334183] (-) TimerEvent: {}
+[81.441233] (-) TimerEvent: {}
+[81.546967] (-) TimerEvent: {}
+[81.645190] (aruco_opencv) JobEnded: {'identifier': 'aruco_opencv', 'rc': 0}
+[81.650972] (-) TimerEvent: {}
+[81.651335] (-) EventReactorShutdown: {}
