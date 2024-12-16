@@ -5,6 +5,8 @@ from aruco_opencv_msgs.msg import ArucoDetection
 # Twist msg format to jetbot motors
 from geometry_msgs.msg import Twist
 import math
+#from rosbag2_py import SequentialWriter, StorageOptions, ConverterOptions, TopicMetadata
+
 
 # what is minimum distance from the ARUCO marker at which
 # the jetbot should have VMAX
@@ -60,6 +62,21 @@ class AvoidARUCO(Node):
         self.timer = None
         # We are going to chase this marker
         self.chosen_marker_to_chase = 7 # This is the goal marker
+    '''
+            # ROS2 Bag Writer Setup
+            self.writer = SequentialWriter()
+            storage_options = StorageOptions(uri='jetbot_path', storage_id='sqlite3')
+            converter_options = ConverterOptions(input_serialization_format='cdr', output_serialization_format='cdr')
+            self.writer.open(storage_options, converter_options)
+
+            # Define Topic Metadata properly
+            cmd_vel_metadata = TopicMetadata(
+                name='/jetbot/cmd_vel',
+                type='geometry_msgs/msg/Twist',
+                serialization_format='cdr'
+            )
+            self.writer.create_topic(cmd_vel_metadata)
+    '''
 
     def on_aruco_detection(self, msg):
         """ This function will be called whenever one-single message of ARUCO
@@ -79,14 +96,6 @@ class AvoidARUCO(Node):
                     goal_marker = m
                 else:
                     avoid_marker = m
-            # if goal_marker is not None:
-            #     # Found it
-            #     # goal_marker = 7
-            #     pass
-            # else:
-            #     self.get_logger().warning("Obstacle avoidance active, searching for marker_id %d" %
-            #                               self.chosen_marker_to_chase)
-            #     return
 
             if msg.markers[0].marker_id == 7:
                 # Extract the minimum (2D) amount of information, x and z coordinate of
@@ -119,7 +128,13 @@ class AvoidARUCO(Node):
                                    0. if abs(ang_vel) < abs(OMIN) else
                                    ang_vel)
                 self.get_logger().info('Angular: "%f";' % ang_vel_clipped)
-                self.pub.publish(new_twist(-linear_vel_clipped, ang_vel_clipped))
+
+                twist_msg = new_twist(-linear_vel_clipped, ang_vel_clipped)
+                self.pub.publish(twist_msg)
+
+                '''   # Record the Twist message in the rosbag
+                    self.writer.write('/jetbot/cmd_vel', twist_msg, self.get_clock().now().to_msg())'''
+
             else:
                 self.get_logger().info('Position of obstacle marker: "%s"' %
                                        avoid_marker.pose.position)
@@ -147,9 +162,17 @@ class AvoidARUCO(Node):
                     self.get_logger().info('Angular: "%f";' % ang_vel_clipped)
 
                     if x<0:
-                        self.pub.publish(new_twist(-linear_vel_clipped, ang_vel_clipped))
+                        twist_msg = new_twist(-linear_vel_clipped, ang_vel_clipped)
+                        self.pub.publish(twist_msg)
+                        ''' 
+                        # Record the Twist message in the rosbag
+                        self.writer.write('/jetbot/cmd_vel', twist_msg, self.get_clock().now().to_msg())'''
                     else:
-                        self.pub.publish(new_twist(-linear_vel_clipped, -ang_vel_clipped))
+                        twist_msg = new_twist(-linear_vel_clipped, -ang_vel_clipped)
+                        self.pub.publish(twist_msg)
+                        
+                        '''# Record the Twist message in the rosbag
+                        self.writer.write('/jetbot/cmd_vel', twist_msg, self.get_clock().now().to_msg())'''
                 else:
                     linear_vel = (VMIN
                                 + Kp_linear * (VMAX - VMIN) * (z - MINDIST)
@@ -168,6 +191,13 @@ class AvoidARUCO(Node):
                                     ang_vel)
                     self.get_logger().info('Angular: "%f";' % ang_vel_clipped)
 
+                    twist_msg = new_twist(-linear_vel_clipped, ang_vel_clipped)
+                    self.pub.publish(twist_msg)
+                    '''
+                    # Record the Twist message in the rosbag
+                    self.writer.write('/jetbot/cmd_vel', twist_msg, self.get_clock().now().to_msg())'''
+
+
 def main(args=None):
     rclpy.init(args=args)
 
@@ -179,6 +209,11 @@ def main(args=None):
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
     move2a.destroy_node()
+
+    '''    # Close rosbag writer on node destruction
+    self.writer.close()
+    super().destroy_node()'''
+
     rclpy.shutdown()
 if __name__ == '__main__':
     main()

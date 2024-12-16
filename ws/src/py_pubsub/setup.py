@@ -51,6 +51,7 @@ setup(
                 'listener = py_pubsub.subscriber_member_function:main',
                 'move2aruco = py_pubsub.move2aruco:main',
                 'goal_finder = py_pubsub.goal_finder_2:main',
+                'path_replayer = py_pubsub.path_replayer:main',
         ],
     },
 )
